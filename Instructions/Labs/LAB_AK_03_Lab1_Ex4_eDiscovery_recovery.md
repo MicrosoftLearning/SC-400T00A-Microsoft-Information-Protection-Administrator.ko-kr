@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: e6f9b38a496a6f35e5fb0fc5cd46be83cdc667c2
-ms.sourcegitcommit: 2e9e5dd78a50682b1afef130c7c566b7d929f854
+ms.openlocfilehash: 868b12d70dbc7c26d12f3543c0cbed7ddaec1000
+ms.sourcegitcommit: b50f9a265cf3a73ace7cbec4b5cb6f7420acc139
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/27/2022
-ms.locfileid: "137899393"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "141151323"
 ---
 # <a name="lab-3---exercise-4---use-ediscovery-for-recovery"></a>랩 3 - 연습 4 - 복구에 eDiscovery 사용
 
@@ -24,7 +24,7 @@ ms.locfileid: "137899393"
 
 5. **케이스 이름** 에는 **Mark 8 프로젝트 케이스** 를, *케이스 설명* 에는 *Mark 8 프로젝트 관련 Megan Bowen의 메일을 평가하는 데 사용할 케이스입니다.* 를 입력하고 **저장** 을 선택합니다.
 
-6. **Core eDiscovery** 페이지에서 **Mark 8 Project Case** 를 두 번 클릭하여 케이스를 엽니다.
+6. **Core eDiscovery** 페이지에서 **Mark 8 프로젝트 사례** 를 클릭하여 사례를 엽니다.
 
 7. 케이스 보기에서 **검색** 탭을 선택합니다.
 
@@ -120,7 +120,7 @@ eDiscovery 케이스를 만들었으며, Mark 8 프로젝트에 대한 정보가
 
 7. **검색 조건 정의** 페이지의 **키워드** 영역에 *From:phishingmail@outlook.com AND subject:"Password changed"* 를 입력하고 **다음** 을 선택합니다.
 
-8. **검색 항목을 검토한 후 만들기** 창에서 **제출** 을 선택합니다. **완료** 를 클릭합니다.
+8. **검색 항목을 검토한 후 만들기** 창에서 **제출** 을 선택합니다. **Done** 을 클릭합니다.
 
 9. 검색을 만든 후에는 **Security & Compliance PowerShell** 을 사용하여 제거를 시작해야 합니다. 시작 메뉴에서 **Windows PowerShell** 을 선택하고 관리자 권한을 실행을 선택합니다.
 
