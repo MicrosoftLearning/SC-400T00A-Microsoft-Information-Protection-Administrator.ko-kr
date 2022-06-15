@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: a826e5a9cac44bd65f765cfe1322731747535611
-ms.sourcegitcommit: b50f9a265cf3a73ace7cbec4b5cb6f7420acc139
+ms.openlocfilehash: da7e3bc14cc2631176504a950c14d9b1a4ed2401
+ms.sourcegitcommit: 8194831011a18168bab9873a95798c96a13cc448
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2022
-ms.locfileid: "141151317"
+ms.lasthandoff: 05/13/2022
+ms.locfileid: "145025188"
 ---
 # <a name="lab-3---exercise-1---configure-retention-policies"></a>랩 3 - 연습 1 - 보존 정책 구성
 
@@ -23,7 +23,7 @@ ms.locfileid: "141151317"
 
 3. **Microsoft 365 규정 준수** 포털의 왼쪽 탐색 창에서 **정책** 을 선택하고 **데이터** 에서 **보존** 을 선택합니다.
 
-4. **정보 거버넌스** 페이지의 **보존 정책** 탭에서 **+ 새 보존 정책** 을 선택합니다.
+4. **데이터 수명 주기 관리** 페이지의 **보존 정책** 탭에서 **+ 새 보존 정책** 을 선택합니다.
 
 5. **보존 정책 이름 지정** 페이지의 **이름** 및 **설명** 에 다음 정보를 각각 입력합니다.
 

@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: 05acea7ffe00c54d00c935da94f15ba402b23121
-ms.sourcegitcommit: 2e9e5dd78a50682b1afef130c7c566b7d929f854
+ms.openlocfilehash: d8cf9d01fd8f69396de10007c3da442a391c2f36
+ms.sourcegitcommit: 8194831011a18168bab9873a95798c96a13cc448
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/27/2022
-ms.locfileid: "137899395"
+ms.lasthandoff: 05/13/2022
+ms.locfileid: "145025191"
 ---
 # <a name="lab-2---exercise-3---manage-dlp-reports"></a>랩 2 - 연습 3 - DLP 보고서 관리
 
@@ -18,7 +18,7 @@ Contoso Ltd.의 준수 관리자인 Joni Sherman이 회사 Microsoft 365 테넌�
 
 2. **Microsoft Edge** 에서 **https://compliance.microsoft.com** 으로 이동한 다음 Microsoft 365 규정 준수 포털에 **MOD 관리자** admin@WWLxZZZZZZ.onmicrosoft.com 으로 로그인합니다(ZZZZZZ는 랩 호스팅 공급자가 제공한 고유 테넌트 ID임).  관리자의 암호는 랩 호스팅 공급자가 제공합니다.
 
-3. 왼쪽 탐색 창에서 **사용 권한** 을 선택한 다음 **준수 센터** 에서 **역할** 을 선택합니다.  **보안 읽기 권한자** 역할 옆에 있는 상자를 표시합니다.
+3. 왼쪽 탐색 창에서 **권한** 을 선택한 다음, **Microsoft Purview 솔루션** 에서 **역할** 을 선택합니다.  **보안 읽기 권한자** 역할 옆에 있는 상자를 표시합니다.
 
 4. 보안 읽기 권한자 창의 **구성원** 영역에서 **편집** 을 선택합니다.
 

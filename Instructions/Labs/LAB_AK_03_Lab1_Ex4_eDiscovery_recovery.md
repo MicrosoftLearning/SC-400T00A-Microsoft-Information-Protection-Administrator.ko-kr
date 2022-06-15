@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: 868b12d70dbc7c26d12f3543c0cbed7ddaec1000
-ms.sourcegitcommit: b50f9a265cf3a73ace7cbec4b5cb6f7420acc139
+ms.openlocfilehash: 126cadc288eaa7dc4713f9f3543d21c7bf9da112
+ms.sourcegitcommit: 8194831011a18168bab9873a95798c96a13cc448
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2022
-ms.locfileid: "141151323"
+ms.lasthandoff: 05/13/2022
+ms.locfileid: "145025197"
 ---
 # <a name="lab-3---exercise-4---use-ediscovery-for-recovery"></a>랩 3 - 연습 4 - 복구에 eDiscovery 사용
 
@@ -18,9 +18,9 @@ ms.locfileid: "141151323"
 
 2. **Microsoft Edge** 에서 **https://compliance.microsoft.com** 으로 이동하고 Microsoft 365 규정 준수 포털에 **Joni Sherman** 으로 로그인합니다.
 
-3. 포털의 왼쪽 탐색 창에서 **eDiscovery** 를 펼치고 **코어** 를 선택합니다.
+3. 포털의 왼쪽 탐색 창에서 **eDiscovery** 를 확장하고 **표준** 을 선택합니다.
 
-4. **코어 eDiscovery** 페이지에서 **+ 케이스 만들기** 를 선택합니다.
+4. **eDiscovery(표준)** 페이지에서 **+ 사례 만들기** 를 선택합니다.
 
 5. **케이스 이름** 에는 **Mark 8 프로젝트 케이스** 를, *케이스 설명* 에는 *Mark 8 프로젝트 관련 Megan Bowen의 메일을 평가하는 데 사용할 케이스입니다.* 를 입력하고 **저장** 을 선택합니다.
 
@@ -54,7 +54,7 @@ eDiscovery 케이스를 만들었으며, Mark 8 프로젝트에 대한 정보가
 
 2. **Microsoft Edge** 에서 **https://compliance.microsoft.com** 으로 이동하고 Microsoft 365 규정 준수 포털에 **MOD 관리자** 로 로그인합니다.  Joni Sherman으로 로그아웃해야 할 수도 있습니다. 
 
-3. 왼쪽 탐색 창에서 **사용 권한** 을 선택한 다음 **준수 센터** 에서 **역할** 을 선택합니다.  **레코드 관리** 역할을 선택합니다.
+3. 왼쪽 탐색 창에서 **권한** 을 선택한 다음, **Microsoft Purview 솔루션** 에서 **역할** 을 선택합니다.  **레코드 관리** 역할을 선택합니다.
 
 4. 역할 개요 창에서 **구성원** 범주 옆의 **편집** 을 선택합니다.
 
@@ -78,13 +78,13 @@ eDiscovery 케이스를 만들었으며, Mark 8 프로젝트에 대한 정보가
 
 2. **Microsoft Edge** 에서 **https://compliance.microsoft.com** 으로 이동하고 Microsoft 365 규정 준수 포털에 **Joni Sherman** 으로 로그인합니다.
 
-3. **Microsoft 365 규정 준수** 포털의 왼쪽 탐색 창에서 **eDiscovery** 를 펼치고 **코어** 를 선택합니다.
+3. **Microsoft 365 규정 준수** 포털의 왼쪽 탐색 창에서 **eDiscovery** 를 확장하고 **표준** 을 선택합니다.
 
 4. **Mark 8 Project 케이스** 를 클릭하여 케이스를 엽니다.
 
 5. **검색** 탭을 선택하고 **Mark 8 Project** 검색을 선택합니다.
 
-**힌트:** eDiscovery 검색에 데이터가 없다면 검색 매개 변수를 고려해 보세요.  이전 랩에서 Megan이 *Mark 8* 프로젝트에 대한 전자 메일을 보냈나요?  보내지 않았다면 Megan의 사서함에 있는 기존 전자 메일에 있는 아무 단어로 검색 키워드를 변경해 보세요.  예를 들어 "planner"라는 용어는 보통 Megan의 기존 전자 메일 중 몇 개에 나타납니다.  내보내기에 처리할 내용이 있으려면 검색할 데이터가 있어야 합니다.
+**힌트:** eDiscovery 검색에 데이터가 없다면 검색 매개 변수를 고려해 보세요. Megan의 사서함에는 *Mark 8* 프로젝트에 대한 일부 메시지가 포함되어야 합니다.  보내지 않았다면 Megan의 사서함에 있는 기존 전자 메일에 있는 아무 단어로 검색 키워드를 변경해 보세요.  예를 들어 "planner"라는 용어는 보통 Megan의 기존 전자 메일 중 몇 개에 나타납니다.  내보내기에 처리할 내용이 있으려면 검색할 데이터가 있어야 합니다.
 
 6. **Mark 8 Project** 대화 상자에서 **작업** 버튼 드롭다운을 선택하고 **결과 내보내기** 를 선택합니다.
 
@@ -120,7 +120,7 @@ eDiscovery 케이스를 만들었으며, Mark 8 프로젝트에 대한 정보가
 
 7. **검색 조건 정의** 페이지의 **키워드** 영역에 *From:phishingmail@outlook.com AND subject:"Password changed"* 를 입력하고 **다음** 을 선택합니다.
 
-8. **검색 항목을 검토한 후 만들기** 창에서 **제출** 을 선택합니다. **Done** 을 클릭합니다.
+8. **검색 항목을 검토한 후 만들기** 창에서 **제출** 을 선택합니다. **완료** 를 클릭합니다.
 
 9. 검색을 만든 후에는 **Security & Compliance PowerShell** 을 사용하여 제거를 시작해야 합니다. 시작 메뉴에서 **Windows PowerShell** 을 선택하고 관리자 권한을 실행을 선택합니다.
 
