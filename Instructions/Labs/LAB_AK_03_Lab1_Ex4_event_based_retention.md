@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: c392b72c3f9f6a871765ebcc25baecc167889bb0
-ms.sourcegitcommit: c78ddb966a982b76e7f46fc17a42847f76d6e1a0
+ms.openlocfilehash: fbf7dad2bb533f78527990015c8531be22894b9d
+ms.sourcegitcommit: f7259dd59786836bf2ccb7f3c1a5ef37ec745a4a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/15/2022
-ms.locfileid: "147154879"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "147629909"
 ---
 # <a name="lab-3---exercise-4---configure-event-based-retention"></a>랩 3 연습 4 - 이벤트 기반 보존 구성
 
@@ -133,7 +133,7 @@ Project Assets의 보존 레이블을 사용자에게 성공적으로 게시했�
 
 1. 새로 나타난 **자산 ID** 필드를 **BostonOfficeLaunch** 로 설정하고 오른쪽 위 모서리에서 **X** 를 선택하여 오른쪽 메뉴를 닫습니다.
 
-문서에 레이블 및 자산 ID를 할당했습니다. 자산 ID 1234에 대한 Project Closure 이벤트가 트리거되면 5년의 보존 기간이 활성화됩니다.
+문서에 레이블 및 자산 ID를 할당했습니다. 자산 ID BostonOfficeLaunch에 대한 Project Closure 이벤트가 트리거되면 5년의 보존 기간이 활성화됩니다.
 
 ### <a name="task-5--create-specific-event"></a>작업 5 – 특정 이벤트 만들기
 
