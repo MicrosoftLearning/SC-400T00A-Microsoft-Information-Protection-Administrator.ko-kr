@@ -1,10 +1,13 @@
 ---
-ms.openlocfilehash: de1a258c680d8d29a4592b3b5b9eabf8d0b0b2b9
-ms.sourcegitcommit: 87981d92cddd039f65cba07c3f57ea6a12dd251a
+lab:
+  title: 연습 2 - 엔드포인트 DLP 관리
+  module: Module 2 - Implement Data Loss Prevention
+ms.openlocfilehash: 5b217ee6531ed7135de8c12db5d6399beab718ca
+ms.sourcegitcommit: 53488624251b6cf8f79f2d1ff561e3f334764821
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/15/2022
-ms.locfileid: "147155300"
+ms.lasthandoff: 08/26/2022
+ms.locfileid: "147694941"
 ---
 # <a name="lab-2---exercise-2---manage-endpoint-dlp"></a>랩 2 - 연습 2 - 엔드포인트 DLP 관리
 

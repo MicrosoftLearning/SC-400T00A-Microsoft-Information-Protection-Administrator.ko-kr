@@ -1,10 +1,13 @@
 ---
-ms.openlocfilehash: a7779dc81ae67d9e935768e8a7ba5234bc82d816
-ms.sourcegitcommit: 87981d92cddd039f65cba07c3f57ea6a12dd251a
+lab:
+  title: 연습 4 - 학습 가능한 분류자 관리
+  module: Module 1 - Implement Information Protection
+ms.openlocfilehash: 5764991a7027bed7fb7807b697e182a78ce599db
+ms.sourcegitcommit: 53488624251b6cf8f79f2d1ff561e3f334764821
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/15/2022
-ms.locfileid: "147155306"
+ms.lasthandoff: 08/26/2022
+ms.locfileid: "147694980"
 ---
 # <a name="lab-1---exercise-4---manage-trainable-classifiers"></a>랩 1 - 연습 4 - 학습 가능한 분류자 관리
 

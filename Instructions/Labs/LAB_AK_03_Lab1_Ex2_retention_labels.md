@@ -1,10 +1,13 @@
 ---
-ms.openlocfilehash: a094ffb178d8fd9fcbc5d418be7fa6027c13a1e4
-ms.sourcegitcommit: c78ddb966a982b76e7f46fc17a42847f76d6e1a0
+lab:
+  title: 연습 2 - 보존 레이블 구현
+  module: Module 3 - Implement Data Lifecycle and Records Management
+ms.openlocfilehash: da215e79c0e2bc22f385244dc668d5bf1cb521d2
+ms.sourcegitcommit: 53488624251b6cf8f79f2d1ff561e3f334764821
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/15/2022
-ms.locfileid: "147154817"
+ms.lasthandoff: 08/26/2022
+ms.locfileid: "147694938"
 ---
 # <a name="lab-3---exercise-2---implement-retention-labels"></a>랩 3 - 연습 2 - 보존 레이블 구현
 

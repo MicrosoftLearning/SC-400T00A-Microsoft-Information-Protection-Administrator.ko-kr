@@ -1,10 +1,13 @@
 ---
-ms.openlocfilehash: 45cc3abc66c9494a5710c968c0cddbe09fad823d
-ms.sourcegitcommit: c78ddb966a982b76e7f46fc17a42847f76d6e1a0
+lab:
+  title: 연습 1 - 보존 정책 구성
+  module: Module 3 - Implement Data Lifecycle and Records Management
+ms.openlocfilehash: dc8282f424065a6c21ceac476f79a15dbf5ed149
+ms.sourcegitcommit: 53488624251b6cf8f79f2d1ff561e3f334764821
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/15/2022
-ms.locfileid: "147154838"
+ms.lasthandoff: 08/26/2022
+ms.locfileid: "147694935"
 ---
 # <a name="lab-3---exercise-1---configure-retention-policies"></a>랩 3 - 연습 1 - 보존 정책 구성
 

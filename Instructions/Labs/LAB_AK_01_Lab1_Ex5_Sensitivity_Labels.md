@@ -1,14 +1,17 @@
 ---
-ms.openlocfilehash: 4ecaab0f83254b251ba9bbb5675fb7eded661f2f
-ms.sourcegitcommit: 87981d92cddd039f65cba07c3f57ea6a12dd251a
+lab:
+  title: 연습 5 - 민감도 레이블 관리
+  module: Module 1 - Implement Information Protection
+ms.openlocfilehash: 07d4535e85a81edb22a7bd5f8831d9bfcb488732
+ms.sourcegitcommit: 53488624251b6cf8f79f2d1ff561e3f334764821
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/15/2022
-ms.locfileid: "147155312"
+ms.lasthandoff: 08/26/2022
+ms.locfileid: "147694974"
 ---
 # <a name="lab-1---exercise-5---manage-sensitivity-labels"></a>랩 1 - 연습 5 - 민감도 레이블 관리
 
-이 랩에서는 Contoso Ltd. 의 시스템 관리자인 Joni Sherman으로 작업을 수행하게 됩니다. Joni가 소속된 독일 레드니츠헴바치 소재 조직에서는 현재 민감도 관련 계획을 구현하는 중입니다. 구체적으로 설명하자면, 조직 정보 보호 정책의 일환으로 HR 부서의 모든 직원 문서에 민감도 레이블을 표시하는 계획이 진행되고 있습니다.
+이 랩에서는 Contoso Ltd.의 시스템 관리자인 Joni Sherman으로 작업을 수행하게 됩니다. Joni가 소속된 독일 레드니츠헴바치 소재 조직에서는 현재 민감도 관련 계획을 구현하는 중입니다. 구체적으로 설명하자면, 조직 정보 보호 정책의 일환으로 HR 부서의 모든 직원 문서에 민감도 레이블을 표시하는 계획이 진행되고 있습니다.
 
 ### <a name="task-1-enable-support-for-sensitivity-labels"></a>작업 1 - 민감도 레이블을 지원하도록 설정
 
@@ -103,7 +106,7 @@ Teams 및 SharePoint 사이트에서 민감도 레이블이 지원되도록 설�
 
 1. **이 레이블의 범위 정의** 페이지에서 메일, 파일, Power BI 항목을 보호하는 옵션 **항목** 을 선택합니다.
 
-1. **새로 만들기** 를 선택합니다.
+1. **다음** 을 선택합니다.
 
 1. **레이블이 지정된 항목에 대한 보호 설정 선택** 페이지에서 **다음** 을 선택합니다.
 

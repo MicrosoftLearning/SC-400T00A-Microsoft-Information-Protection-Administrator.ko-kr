@@ -1,10 +1,13 @@
 ---
-ms.openlocfilehash: 29f281ebb0cf14aabb49d66b05003570e61de27a
-ms.sourcegitcommit: 87981d92cddd039f65cba07c3f57ea6a12dd251a
+lab:
+  title: 연습 3 - 중요한 정보 유형 관리
+  module: Module 1 - Implement Information Protection
+ms.openlocfilehash: 7dee6111f2414a45535fafc3fd50e808d05982a2
+ms.sourcegitcommit: 53488624251b6cf8f79f2d1ff561e3f334764821
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/15/2022
-ms.locfileid: "147155303"
+ms.lasthandoff: 08/26/2022
+ms.locfileid: "147694971"
 ---
 # <a name="lab-1---exercise-3---manage-sensitive-information-types"></a>랩 1 - 연습 3 - 중요한 정보 유형 관리
 
