@@ -1,12 +1,15 @@
 ---
-ms.openlocfilehash: 7919442bc520d131fa869e44556eff1276b9c880
-ms.sourcegitcommit: c78ddb966a982b76e7f46fc17a42847f76d6e1a0
+lab:
+  title: 연습 5 - 복구에 eDiscovery 사용
+  module: Module 3 - Implement Data Lifecycle and Records Management
+ms.openlocfilehash: 18e5cc590d10cdd35f2986a989b58fa07e4d472a
+ms.sourcegitcommit: 53488624251b6cf8f79f2d1ff561e3f334764821
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/15/2022
-ms.locfileid: "147154880"
+ms.lasthandoff: 08/26/2022
+ms.locfileid: "147694950"
 ---
-# <a name="lab-3---exercise-4---use-ediscovery-for-recovery"></a>랩 3 - 연습 4 - 복구에 eDiscovery 사용
+# <a name="lab-3---exercise-5---use-ediscovery-for-recovery"></a>랩 3 - 연습 5 - 복구에 eDiscovery 사용
 
 이 연습에서는 Contoso Ltd.의 규정 준수 관리자인 Joni Sherman으로 작업을 수행하게 됩니다. 텍사스 소재의 조직에서는 현지 법률을 준수하는 보존 정책을 시행하려고 합니다. Uniform Preservation of Private Business Records Act에 따라 3년이 지나면 법에 저촉되는 사항 없이 레코드를 폐기할 수 있습니다(일부 예외는 있음). 이 법률 준수를 위해 조직에서는 조직의 모든 항목을 3년 동안 보존하는 보존 계획을 작성했습니다.
 

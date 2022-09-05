@@ -1,12 +1,15 @@
 ---
-ms.openlocfilehash: ee57f2ea92721329bdb25ad524751f54c31cefd6
-ms.sourcegitcommit: c78ddb966a982b76e7f46fc17a42847f76d6e1a0
+lab:
+  title: 연습 6 - 레코드 관리 구성
+  module: Module 3 - Implement Data Lifecycle and Records Management
+ms.openlocfilehash: 1d2e4a3980efe3d13bc98209d266b40c62a18871
+ms.sourcegitcommit: 53488624251b6cf8f79f2d1ff561e3f334764821
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/15/2022
-ms.locfileid: "147154886"
+ms.lasthandoff: 08/26/2022
+ms.locfileid: "147694932"
 ---
-# <a name="lab-3---exercise-5---configure-records-management"></a>랩 3 - 연습 5 - 레코드 관리 구성
+# <a name="lab-3---exercise-6---configure-records-management"></a>랩 3 - 연습 6 - 레코드 관리 구성
 
 이 연습에서는 Contoso Ltd.의 규정 준수 관리자인 Joni Sherman으로 작업을 수행하게 됩니다. 조직의 규정 요구 사항에는 회사에서 보험 비용에 관해 논의할 때 직원이 제공한 사용 가능 의료 보험 정보의 확정 사본 보유 등이 포함됩니다. Joni는 해당 레코드가 적절하게 보존되는지를 확인하는 업무를 맡았습니다.
 

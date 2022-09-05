@@ -1,12 +1,15 @@
 ---
-ms.openlocfilehash: fbf7dad2bb533f78527990015c8531be22894b9d
-ms.sourcegitcommit: f7259dd59786836bf2ccb7f3c1a5ef37ec745a4a
+lab:
+  title: 연습 4 - 이벤트 기반 보존 구성
+  module: Module 3 - Implement Data Lifecycle and Records Management
+ms.openlocfilehash: bc2419ca627eb18ee16fcd6cf2f9ff59a079521e
+ms.sourcegitcommit: 53488624251b6cf8f79f2d1ff561e3f334764821
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "147629909"
+ms.lasthandoff: 08/26/2022
+ms.locfileid: "147694953"
 ---
-# <a name="lab-3---exercise-4---configure-event-based-retention"></a>랩 3 연습 4 - 이벤트 기반 보존 구성
+# <a name="lab-3---exercise-4---configure-event-based-retention"></a>랩 3 - 연습 4 - 이벤트 기반 보존 구성
 
 이 연습에서는 Contoso Ltd.의 준수 관리자인 Joni Sherman으로 작업을 수행하게 됩니다. 조직은 텍사스에 있으며 특정 프로젝트에 속한 콘텐츠를 종료 후 5년 동안 보존하는 보존 정책을 구현하려고 합니다.
 
