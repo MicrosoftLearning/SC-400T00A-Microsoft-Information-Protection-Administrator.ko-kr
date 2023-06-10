@@ -4,11 +4,11 @@ lab:
   module: Module 3 - Implement Data Lifecycle and Records Management
 ---
 
-# <a name="lab-3---exercise-3---configure-service-based-retention"></a>랩 3 - 연습 3 - 서비스 기반 보존 구성
+# 랩 3 - 연습 3 - 서비스 기반 보존 구성
 
 Joni Sherman의 역할이 Contoso Ltd.의 규정 준수 관리자라고 가정합니다. 법무팀을 지원하여 회사에 불만을 품은 직원이 회사 데이터를 삭제하는 행위를 차단해야 합니다.
 
-### <a name="task-1--configure-mailbox-holds"></a>작업 1 - 사서함 보존 구성
+## 작업 1 - 사서함 보존 구성
 
 이 작업에서는 직원 사서함의 콘텐츠를 삭제할 수 없도록 사서함 보존을 활성화합니다.
 
@@ -37,7 +37,7 @@ Joni Sherman의 역할이 Contoso Ltd.의 규정 준수 관리자라고 가정�
 
 환경의 사서함에서 사서함 보존을 정상적으로 활성화했으며, 액세스 권한이 있는 모든 사용자가 사서함의 콘텐츠를 영구적으로 삭제하지 못하도록 설정했습니다. 보존이 적용될 때까지는 최대 4시간이 걸릴 수 있습니다.  다음 단계로 즉시 진행할 수 있습니다.
 
-### <a name="task-2--recover-sharepoint-documents"></a>작업 2 - SharePoint 문서 복구
+## 작업 2 - SharePoint 문서 복구
 
 이 작업에서는 문서를 삭제한 후 삭제된 문서를 복원하여 직원이 자신의 사서함에 적용된 소송 보존 관련 정보를 파악한 후 삭제할 수도 있는 문서를 복원할 수 있는지를 확인합니다.
 
