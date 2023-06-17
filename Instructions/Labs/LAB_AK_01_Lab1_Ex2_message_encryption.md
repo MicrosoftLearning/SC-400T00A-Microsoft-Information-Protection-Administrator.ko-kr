@@ -4,11 +4,11 @@ lab:
   module: Module 1 - Implement Information Protection
 ---
 
-# <a name="lab-1---exercise-2---manage-office-365-message-encryption"></a>랩 1 - 연습 2 - Office 365 메시지 암호화 관리
+# 랩 1 - 연습 2 - Office 365 메시지 암호화 관리
 
 Joni Sherman이 파일럿 팀과 함께 먼저 구성 및 테스트해야 하는 설정은 Microsoft 365의 기본 제공 OME(Office 365 메시지 암호화)입니다. 이 작업을 위해 Joni는 기본 템플릿을 수정하여 새 브랜딩 템플릿을 만든 다음 파일럿 사용자 중 한 명에게 할당할 예정입니다. 그러면 파일럿 사용자가 자신의 계정으로 OME 기능을 테스트합니다.
 
-### <a name="task-1--verify-azure-rms-functionality"></a>작업 1 - Azure RMS 기능 확인
+## 작업 1 - Azure RMS 기능 확인
 
 이 작업에서는 Exchange Online PowerShell 모듈을 설치하고 Joni Sherman의 컨텍스트에서 테넌트의 Azure RMS 기능이 올바르게 작동하는지를 확인합니다. 지난 연습에서 이 작업을 위해 Joni에게 준수 관리자 역할을 할당했습니다.
 
@@ -70,7 +70,7 @@ Joni Sherman이 파일럿 팀과 함께 먼저 구성 및 테스트해야 하는
 
 Exchange Online PowerShell 모듈을 설치하고 테넌트에 연결하여 Azure RMS의 기능이 올바르게 작동하는지를 확인했습니다.
 
-### <a name="task-2--modify-default-ome-template"></a>작업 2 - 기본 OME 템플릿 수정
+## 작업 2 - 기본 OME 템플릿 수정
 
 조직에서 Google, Facebook 등의 외부 ID 공급자에 대한 신뢰를 제한하려는 경우 이 작업을 수행해야 합니다. 이러한 소셜 ID는 OME로 보호되는 메시지 액세스를 위해 기본적으로 활성화되므로 조직의 모든 사용자에 대해 소셜 ID 사용을 비활성화해야 합니다.
 
@@ -102,7 +102,7 @@ Exchange Online PowerShell 모듈을 설치하고 테넌트에 연결하여 Azur
 
 Office 365 메시지 암호화에서 Google, Facebook 등의 외부 ID 공급자 사용을 비활성화했습니다.
 
-### <a name="task-3--test-default-ome-template"></a>작업 3 - 기본 OME 템플릿 테스트
+## 작업 3 - 기본 OME 템플릿 테스트
 
 테넌트 사용자로부터 Office 365 메시지 암호화로 보호되는 메시지를 수신할 때 외부 수신자에 대한 소셜 ID 대화 상자가 표시되지 않는지 확인해야 하며, 암호화된 콘텐츠에 액세스할 때 언제든지 OTP를 사용해야 합니다.
 
@@ -154,7 +154,7 @@ Office 365 메시지 암호화에서 Google, Facebook 등의 외부 ID 공급자
 
 비활성화된 소셜 ID를 사용하여 수정된 기본 OME 템플릿을 테스트했습니다.
 
-### <a name="task-4--create-custom-branding-template"></a>작업 4 - 사용자 지정 브랜딩 템플릿 만들기
+## 작업 4 - 사용자 지정 브랜딩 템플릿 만들기
 
 조직 경리부에서 보내는 보호된 메시지에는 특수 브랜딩을 사용해야 합니다. 이러한 브랜딩에는 사용자 지정된 소개 및 본문 텍스트, 그리고 바닥글의 고지 사항 링크가 포함됩니다. 또한 경리부에서 보내는 메시지는 7일 후에 만료되어야 합니다. 이 작업에서는 새 사용자 지정 OME 구성, 그리고 경리부에서 보내는 모든 메일에 해당 OME 구성을 적용하는 전송 규칙을 만듭니다.
 
@@ -208,7 +208,7 @@ Office 365 메시지 암호화에서 Google, Facebook 등의 외부 ID 공급자
 
 경리부 직원이 외부 받는 사람에게 메시지를 보내면 사용자 지정 OME 템플릿을 자동 적용하는 새 전송 규칙을 만들었습니다.
 
-### <a name="task-5--test-the-custom-branding-template"></a>작업 5 - 사용자 지정 브랜딩 템플릿 테스트
+## 작업 5 - 사용자 지정 브랜딩 템플릿 테스트
 
 새 사용자 지정 OME 구성의 유효성을 검사하기 위해 경리팀 직원인 Lynne Robbins의 계정을 다시 사용해야 합니다.
 

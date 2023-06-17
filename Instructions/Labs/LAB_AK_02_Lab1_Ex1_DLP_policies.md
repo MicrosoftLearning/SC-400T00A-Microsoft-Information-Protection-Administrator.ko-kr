@@ -3,12 +3,19 @@ lab:
   title: 연습 1 - DLP 정책 관리
   module: Module 2 - Implement Data Loss Prevention
 ---
+## WWL 테넌트 - 사용 약관
 
-# <a name="lab-2---exercise-1---manage-dlp-policies"></a>랩 2 - 연습 1 - DLP 정책 관리
+강사 주도 교육 제공의 일부로 테넌트를 제공하는 경우, 강사 주도 교육에서 실습 랩을 지원하기 위해 테넌트를 사용할 수 있습니다.
+
+테넌트를 실습 랩 외부에서 공유하거나 사용해서는 안 됩니다. 이 과정에서 사용되는 테넌트는 평가판 테넌트이며 클래스가 종료된 후 사용하거나 액세스할 수 없으며 확장판에서도 사용할 수 없습니다.
+
+테넌트를 유료 구독으로 변환해서는 안 됩니다. 이 과정의 일부로 얻은 테넌트는 Microsoft Corporation의 재산으로 유지되며 언제든지 액세스 권한을 획득하고 다시 소유할 수 있는 권리를 보유합니다.
+
+# 랩 2 - 연습 1 - DLP 정책 관리
 
 Contoso Ltd.에 새로 입사한 준수 관리자인 Joni Sherman이 회사 Microsoft 365 테넌트에서 데이터 손실 방지 기능을 구성하는 작업을 맡게 되었습니다. Contoso Ltd.는 미국의 운전 학원이며, 학원에 등록하는 중요한 고객 정보가 조직 외부로 유출되지 않도록 해야 합니다.
 
-### <a name="task-1--create-a-dlp-policy-in-test-mode"></a>작업 1 - 테스트 모드에서 DLP 정책 만들기
+## 작업 1 - 테스트 모드에서 DLP 정책 만들기
 
 이 연습에서는 Microsoft Purview 포털에서 중요한 데이터를 사용자들이 공유하지 못하도록 하는 데이터 손실 방지 정책을 만듭니다. 여기서 만들 DLP 정책은 사용자가 신용 카드 정보를 포함하는 콘텐츠를 공유하려고 하면 알림을 표시합니다. 그러면 사용자는 해당 정보를 전송해야 하는 정당한 이유를 제시할 수 있습니다. 아직은 콘텐츠 공유 작업을 차단하여 사용자에게 영향을 주지 않기 위해 테스트 모드에서 정책을 구현할 예정입니다.
 
@@ -70,7 +77,7 @@ Contoso Ltd.에 새로 입사한 준수 관리자인 Joni Sherman이 회사 Micr
 
 이제 Microsoft Teams 채팅 및 채널에서 신용 카드 번호를 검사한 다음, 사용자가 해당 정책을 재정의하려는 경우 비즈니스 타당성을 제공할 수 있도록 하는 DLP 정책을 만들었습니다.
 
-### <a name="task-2---modify-a-dlp-policy"></a>작업 2 - DLP 정책 수정
+## 작업 2 - DLP 정책 수정
 
 이 작업에서는 이전 단계에서 만든 기존 DLP 정책이 메일에서도 신용 카드 정보를 검사한 다음, 사용자가 해당 콘텐츠를 메일로 공유하려고 하면 알림을 표시하도록 수정합니다.
 
@@ -92,7 +99,7 @@ Contoso Ltd.에 새로 입사한 준수 관리자인 Joni Sherman이 회사 Micr
 
 이제 기존 DLP 정책이 수정되었으며 해당 정책이 콘텐츠를 검사하는 위치가 변경되었습니다.
 
-### <a name="task-3---create-a-dlp-policy-in-powershell"></a>작업 3 - PowerShell에서 DLP 정책 만들기
+## 작업 3 - PowerShell에서 DLP 정책 만들기
 
 이 작업에서는 PowerShell을 사용하여 Contoso EmployeeID를 보호하고 Exchange에서 공유되지 않도록 DLP 정책을 만듭니다. 사용자는 중요한 데이터를 공유하려고 하며 Contoso EmployeeID가 포함된 메일을 보낼 수 없다는 알림을 받습니다.
 
@@ -126,7 +133,7 @@ Contoso Ltd.에 새로 입사한 준수 관리자인 Joni Sherman이 회사 Micr
 
 이제 PowerShell을 사용하여 Exchange에서 Contoso EmpoloyeeID를 검색하는 DLP 정책을 만들었습니다.
 
-### <a name="task-4---activate-a-policy-in-test-mode"></a>작업 4 - 테스트 모드에서 정책 활성화
+## 작업 4 - 테스트 모드에서 정책 활성화
 
 이 작업에서는 보호 조치를 시행하도록 테스트 모드에서 만든 신용 카드 정보 DLP 정책을 활성화합니다.
 
@@ -146,7 +153,7 @@ Contoso Ltd.에 새로 입사한 준수 관리자인 Joni Sherman이 회사 Micr
 
 DLP 정책을 활성화했습니다. 이제 이 정책은 신용 카드 정보 공유 시도가 검색되면 해당 시도를 차단하며, 사용자가 차단 작업 재정의를 위해 비즈니스 사유를 제공할 수 있도록 합니다.
 
-### <a name="task-5---modify-policy-priority"></a>작업 5 - 정책 우선 순위 수정
+## 작업 5 - 정책 우선 순위 수정
 
 이전 작업에서 DLP 정책 2개를 만들었습니다. 이번에는 두 정책 중 제한 수준이 더 높은 정책에 제한 수준이 낮은 정책보다 높은 우선 순위를 지정해야 합니다. 이러한 이유로 EmployeeID DLP 정책을 더 높은 우선 순위로 이동하려고 합니다.
 
@@ -164,7 +171,7 @@ DLP 정책을 활성화했습니다. 이제 이 정책은 신용 카드 정보 �
 
 DLP 정책의 우선 순위를 수정했습니다. 두 정책의 작업 내용이 일치하면 우선 순위가 높은 정책이 시행됩니다.
 
-### <a name="task-6---enable-file-monitoring-in-microsoft-defender-for-cloud-apps"></a>작업 6 - 클라우드용 Microsoft Defender 앱에서 모니터링 사용
+## 작업 6 - 클라우드용 Microsoft Defender 앱에서 모니터링 사용
 
 클라우드용 Microsoft Defender 앱에서 파일 정책을 사용하여 OneDrive 및 SharePoint Online 위치에서 파일을 보호하려고 합니다. 파일 정책을 만들려면 클라우드용 Microsoft Defender 앱에서 조직의 파일을 검사할 수 있도록 파일 모니터링을 사용하도록 설정해야 합니다.
 
@@ -182,7 +189,7 @@ DLP 정책의 우선 순위를 수정했습니다. 두 정책의 작업 내용�
 
 클라우드용 Microsoft Defender 앱에서 파일 모니터링을 사용하도록 설정했습니다. 이제 파일 정책을 사용하여 파일에서 중요한 콘텐츠를 검사할 수 있습니다.
 
-### <a name="task-7---create-file-policy-for-microsoft-defender-for-cloud-apps"></a>작업 7 - 클라우드용 Microsoft Defender 앱에 대한 파일 정책 만들기
+## 작업 7 - 클라우드용 Microsoft Defender 앱에 대한 파일 정책 만들기
 
 이 작업에서는 클라우드용 Microsoft Defender 앱에서 파일 정책을 만듭니다. 이 정책은 OneDrive 및 SharePoint Online에서 파일을 검사한 다음 신용 카드 정보가 포함된 파일이 공유되면 자동으로 해당 파일을 격리합니다.
 
@@ -218,7 +225,7 @@ DLP 정책의 우선 순위를 수정했습니다. 두 정책의 작업 내용�
 
 이제 OneDrive와 SharePoint에 저장된 파일을 지속적으로 검사해 신용 카드 정보를 찾은 다음 조직 내부에서 해당 정보가 공유되는 경우 격리하는 파일 정책을 만들었습니다.
 
-### <a name="task-8---create-a-dlp-policy-for-powerplatform"></a>작업 8 - PowerPlatform에서 DLP 정책 만들기
+## 작업 8 - PowerPlatform에서 DLP 정책 만들기
 
 회사에서 PowerAutomate 흐름을 사용하여 SharePoint Online과 SalesForce 간에 데이터를 공유합니다. 이 작업에서는 기존 흐름은 계속 작동하도록 하되 비업무용으로 정의된 앱과 SharePoint Online 간에 데이터를 공유하는 흐름 만들기는 차단하는 DLP 정책을 만듭니다.
 
