@@ -4,11 +4,11 @@ lab:
   module: Module 3 - Implement Data Lifecycle and Records Management
 ---
 
-# <a name="lab-3---exercise-5---use-ediscovery-for-recovery"></a>랩 3 - 연습 5 - 복구에 eDiscovery 사용
+# 랩 3 - 연습 5 - 복구에 eDiscovery 사용
 
 이 연습에서는 Contoso Ltd.의 규정 준수 관리자인 Joni Sherman으로 작업을 수행하게 됩니다. 텍사스 소재의 조직에서는 현지 법률을 준수하는 보존 정책을 시행하려고 합니다. Uniform Preservation of Private Business Records Act에 따라 3년이 지나면 법에 저촉되는 사항 없이 레코드를 폐기할 수 있습니다(일부 예외는 있음). 이 법률 준수를 위해 조직에서는 조직의 모든 항목을 3년 동안 보존하는 보존 계획을 작성했습니다.
 
-### <a name="task-1--create-ediscovery-case"></a>작업 1 - eDiscovery 케이스 만들기
+## 작업 1 - eDiscovery 케이스 만들기
 
 이 연습에서는 eDiscovery 케이스를 만들고 Megan Bowen이 보낸 Mark 8 프로젝트 관련 정보가 포함된 메일 검색을 시작합니다. 법무팀에서 규정 준수 검토를 위해 이 정보를 요청했기 때문입니다.
 
@@ -44,7 +44,7 @@ lab:
 
 eDiscovery 케이스를 만들었으며, Mark 8 프로젝트에 대한 정보가 들어 있는 Megan Bowen이 보내거나 받은 모든 메일을 검색했습니다.
 
-### <a name="task-2--assign-records-management-and-ediscovery-manager-permissions"></a>작업 2 – 레코드 관리 및 eDiscovery 관리자 권한 할당
+## 작업 2 – 레코드 관리 및 eDiscovery 관리자 권한 할당
 
 이 작업에서는 법무팀에 제공할 수 있는 PST 파일에 작업 1에서 검색한 데이터를 내보낼 수 있도록 준비합니다. 먼저 준수 관리자에게 레코드 관리 역할을 할당해야 합니다. 이 역할을 할당하지 않으면 준수 관리자가 검색 결과를 내보낼 수 없습니다.
 
@@ -80,7 +80,7 @@ eDiscovery 케이스를 만들었으며, Mark 8 프로젝트에 대한 정보가
 
 검색 결과 내보내기 권한을 준수 관리자에게 부여하고 레코드 관리 작업을 수행했습니다. 사용 권한이 사용자에게 적용될 때까지 최대 60분이 걸릴 수 있으므로 다음 단계로 진행해도 됩니다.
 
-### <a name="task-3--export-data-from-ediscovery-case"></a>작업 3 - eDiscovery 케이스에서 데이터 내보내기
+## 작업 3 - eDiscovery 케이스에서 데이터 내보내기
 
 이 작업에서는 법무팀에 제공할 수 있도록 작업 1에서 검색한 데이터 내보내기를 준비합니다.  테넌트에서 권한을 사용할 수 있을 때까지 60분이 걸릴 수 있습니다.
 
@@ -117,7 +117,7 @@ eDiscovery 케이스를 만들었으며, Mark 8 프로젝트에 대한 정보가
 
 검색된 데이터를 내보냈습니다.
 
-### <a name="task-4--perform-search--purge-on-mailboxes"></a>작업 4 - 사서함에서 검색 및 제거 수행
+## 작업 4 - 사서함에서 검색 및 제거 수행
 
 조사 결과 사용자가 피싱 메일 몇 통을 받은 것으로 확인되어 환경 내의 모든 사서함에서 해당 메시지를 삭제해야 합니다.
 
