@@ -14,17 +14,41 @@ lab:
 
 # 랩 설정: 관리를 위한 환경 준비
 
-이 랩에서는 관리 작업을 위한 환경을 구성하고 준비합니다. 제공된 단계에 따라 필수 기능 및 설정을 미리 사용하도록 설정하여 향후 랩 활동에서 더 쉽게 학습할 수 있도록 합니다. 이 준비에는 필요한 기능 활성화, 관리 권한 설정 및 주요 요소의 적절한 구성 보장이 포함됩니다. 이 랩 설정을 완료하면 나머지 랩 모듈 전체에서 환경을 효과적으로 관리하고 관리할 수 있는 견고한 기반을 제공합니다.
+이 랩에서는 관리 작업을 위한 환경을 구성하고 준비합니다. 제공된 단계에 따라 필수 기능 및 설정을 미리 사용하도록 설정하여 향후 랩 활동에서 더 쉽게 학습할 수 있도록 합니다. 이 준비에는 필요한 기능 활성화, 관리 권한 설정 및 주요 요소의 적절한 구성 보장이 포함됩니다.
+
+## 작업 - 랩 연습에 대한 사용자 암호 설정
+
+이 작업에서는 랩에 필요한 사용자 계정에 대한 암호를 설정합니다.
+
+1. 클라이언트 1 VM(LON-CL1) **에 lon-cl1\admin** 계정으로 로그인합니다. 암호는 랩 호스팅 공급자가 제공합니다.
+
+1. **Microsoft Edge**에서 MOD 관리자 admin@WWLxZZZZZZ.onmicrosoft.com 로 Microsoft Purview 포털로 이동하여 **https://admin.microsoft.com** 로그인합니다(여기서 ZZZZZZ는 랩 호스팅 공급자가 제공하는 고유한 테넌트 ID임).
+
+1. 왼쪽 탐색 창에서 **사용자를** 확장한 다음 **활성 사용자를** 선택합니다.
+
+1. **활성 사용자** 페이지에서 **Joni Sherman**의 사용자 계정을 마우스로 가리키면 키가 표시됩니다.
+
+1. **암호 재설정** 키를 선택하면 오른쪽에 **암호 재설정** 플라이아웃 페이지가 표시되어 Joni의 암호를 재설정합니다.
+
+1. **암호 재설정** 플라이아웃 페이지에서 확인란이 선택되지 않았는지 확인합니다.
+
+1. **암호** 필드에 기억할 수 있는 Joni의 암호를 입력합니다.
+
+    >**팁**: Joni의 암호를 관리자 계정과 동일한 암호로 재설정할 수 있습니다. 이 암호는 랩 호스팅 공급자가 제공해야 합니다.
+
+1. **암호 재설정** 단추를 선택하여 Joni의 암호를 다시 설정합니다.
+
+1. **암호 재설정** 페이지에서 **닫기** 단추를 선택하여 **활성 사용자** 페이지로 돌아갑니다.
+
+1. 4-8단계를 반복하여 **메건 보웬** 과 **린 로빈스의** 암호를 재설정합니다.
 
 ## 작업 - Microsoft Purview 포털에서 감사 사용
 
-작업에서는 Microsoft Purview 규정 준수 포털 감사를 사용하도록 설정하는 데 중점을 줍니다. 감사를 사용하도록 설정하면 포털 내에서 활동을 추적하고 모니터링하여 가시성과 책임을 보장할 수 있습니다. 제공된 단계에 따라 감사 기능을 미리 구성하고 활성화하여 후속 랩 활동에 대한 포괄적인 감사 내역을 제공합니다.
+이 작업에서는 Microsoft Purview 규정 준수 포털 감사를 사용하도록 설정합니다. 이 추적 기능은 포털 활동을 모니터링하여 가시성과 책임을 보장합니다.
 
-1. **lon-cl1\admin** 계정으로 클라이언트 1 VM(LON-CL1)에 로그인합니다. 암호는 랩 호스팅 공급자가 제공합니다.
+1. 여전히 클라이언트 1 VM(LON-CL1)에 **lon-cl1\admin** 계정으로 로그인하고 MOD 관리자 계정으로 Microsoft 365에 로그인해야 합니다.
 
-1. 사용 가능한 모든 Windows 업데이트가 설치되어 있고 클라이언트가 업데이트 설치를 완료하기 위해 다시 시작할 필요가 없는지 확인합니다.
-
-1. **Microsoft Edge**에서 MICROSOFT Purview 포털로 이동하여 **https://compliance.microsoft.com** MOD 관리자 admin@WWLxZZZZZZ.onmicrosoft.com 로 로그인합니다(여기서 ZZZZZZ는 랩 호스팅 공급자가 제공하는 고유한 테넌트 ID임).
+1. **Microsoft Edge**에서 **https://compliance.microsoft.com** 으로 이동합니다.
 
 1. 왼쪽 탐색 창에서 **감사를** 선택합니다.
 
@@ -32,33 +56,39 @@ lab:
 
 ## 작업 - Microsoft Teams에서 이름으로 검색 사용
 
-이 작업에서는 랩 설정의 일부로 Microsoft Teams에서 **이름으로 검색** 기능을 사용하도록 설정합니다. 이 기능을 사용하면 사용자가 organization 내에서 특정 개인을 쉽게 찾고 연결할 수 있습니다. 제공된 단계에 따라 정보 장벽으로 작업할 때 사용자가 쉽게 사용할 수 있도록 **이름별 검색** 기능을 미리 구성하고 활성화합니다.
+이 작업에서는 랩 설정에 대해 Microsoft Teams에서 **이름으로 검색** 기능을 사용하도록 설정합니다. 이렇게 하면 organization 내에서 쉽게 사용자 위치 및 연결할 수 있습니다. 정보 장벽으로 작업할 때 가용성을 보장하기 위해 미리 활성화하는 단계를 수행합니다.
 
-1. **Microsoft Edge**에서 MICROSOFT Purview 포털로 이동하여 **https://admin.teams.microsoft.com** MOD 관리자 admin@WWLxZZZZZZ.onmicrosoft.com 로 로그인합니다(여기서 ZZZZZZ는 랩 호스팅 공급자가 제공하는 고유한 테넌트 ID임). 관리자의 암호는 랩 호스팅 공급자가 제공해야 합니다.
+1. 여전히 클라이언트 1 VM(LON-CL1)에 **lon-cl1\admin** 계정으로 로그인하고 MOD 관리자 계정으로 Microsoft 365에 로그인해야 합니다.
+
+1. **Microsoft Edge**에서 **https://admin.teams.microsoft.com** 으로 이동합니다.
 
 1. 왼쪽 탐색 창의 **Teams** 드롭다운 아래에서 **Teams 설정을** 선택합니다.
 
-1. **이름으로 검색**으로 아래로 스크롤하여 **이 기능을 켜**기로 전환하여 이 기능을 사용하도록 설정합니다.
+1. **이름으로 검색**으로 아래로 스크롤하여 이 기능을 **켜**기로 전환하여 이 기능을 사용하도록 설정합니다.
 
 1. **저장**을 선택하여 이 설정을 저장합니다.
 
 ## 작업 - SharePoint Online 및 OneDrive에서 정보 장벽 사용
 
-이 작업에서는 SharePoint Online 및 OneDrive의 정보 장벽을 활성화하여 안전한 공동 작업을 촉진하고 무단 통신을 방지합니다. 제공된 단계에 따라 정보 장벽을 미리 구성하고 활성화합니다.
+이 작업에서는 SharePoint Online 및 OneDrive에서 정보 장벽을 사용하도록 설정하여 안전한 공동 작업을 촉진하고 무단 통신을 방지합니다.
 
-1. 클라이언트 1 VM(LON-CL1)에 **lon-cl1\admin** 계정으로 로그인되어 있는 상태여야 합니다.
+1. 여전히 클라이언트 1 VM(LON-CL1)에 **lon-cl1\admin** 계정으로 로그인해야 합니다.
 
 1. 관리자 권한 PowerShell 창을 엽니다. 이렇게 하려면 마우스 오른쪽 단추로 Windows 단추를 선택한 다음, **Windows PowerShell(관리자)** 을 선택합니다.
 
 1. **사용자 계정 컨트롤** 창에서 **예**를 선택하여 실행을 확인합니다.
 
-1. 다음 cmdlet을 입력하여 최신 버전의 Sharepoint Online PowerShell 모듈을 설치합니다.
+1. 다음 cmdlet을 실행하여 최신 버전의 SharePoint Online PowerShell 모듈을 설치합니다.
 
     ```powershell
     Install-Module -Name Microsoft.Online.SharePoint.PowerShell
     ```
 
-1. 다음 cmdlet을 입력하여 SharePoint Online **Enter**의 관리 센터에 연결합니다.
+1. PowerShell NuGet 공급자를 설치하라는 메시지가 표시되면 **Y** 를 입력하여 공급자를 설치합니다.
+
+1. 신뢰할 수 없는 리포지토리에서 설치하라는 메시지가 표시되면 **Y** 를 입력하여 PSGallery에서 모듈을 설치합니다.
+
+1. 다음 cmdlet을 실행하여 SharePoint Online의 관리 센터에 연결합니다.
 
     ```powershell
      Connect-SPOService -Url https://<WWLxZZZZZZ>-admin.sharepoint.com -Credential admin@<WWLxZZZZZZ>.onmicrosoft.com
@@ -66,7 +96,7 @@ lab:
 
     >**참고:** ZZZZZZ를 업데이트해야 합니다. ZZZZZZ는 랩 호스팅 공급자가 제공하는 고유한 테넌트 ID입니다.
 
-1. 랩 호스팅 공급자가 제공한 MOD 관리자 암호로 로그인
+1. 랩 호스팅 공급자가 제공한 MOD 관리자 암호로 로그인합니다.
 
 1. SharePoint 및 OneDrive에서 정보 장벽을 사용하도록 설정하려면 다음 명령을 실행합니다.
 
@@ -74,4 +104,4 @@ lab:
     Set-SPOTenant -InformationBarriersSuspension $false
     ```
 
-1. 이 작업이 완료되면 PowerShell 창을 닫습니다.
+1. 완료되면 PowerShell 창을 닫습니다.
