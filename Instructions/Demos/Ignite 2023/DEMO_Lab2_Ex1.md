@@ -7,7 +7,7 @@ lab:
 
 여러분은 데이터 손실 방지를 위해 회사의 Microsoft 365 테넌트를 구성하는 임무를 맡은 Contoso Ltd.의 새로 고용된 규정 준수 관리istrator인 Joni Sherman입니다. Contoso Ltd.는 미국 운전 지침을 제공하는 회사이며 중요한 고객 정보가 조직을 떠나지 않도록 해야 합니다.
 
-## 작업 1 – 테스트 모드에서 DLP 정책 만들기
+## 작업 1 – DLP 정책 만들기
 
 이 연습에서는 Microsoft Purview 포털에서 중요한 데이터를 사용자들이 공유하지 못하도록 하는 데이터 손실 방지 정책을 만듭니다. 사용자가 만든 DLP 정책은 신용 카드 정보가 포함된 콘텐츠를 공유하려는 경우 사용자에게 알리고 이 정보를 전송하기 위한 근거를 제공할 수 있도록 합니다. 차단 동작이 사용자에게 아직 영향을 미치지 않기 때문에 정책이 테스트 모드에서 구현됩니다.
 
@@ -64,158 +64,10 @@ lab:
 
 1. 규칙 만들기 페이지에서 저장**을 선택한 **다음을 선택합니다****.** ** 
 
-1. 정책 모드** 페이지에서 테스트 모드에서 정책 실행을 선택하고 **시뮬레이션 모드**** 에서 정책 팁 표시를 선택한 **다음, 다음**을 선택합니다**.**
+1. **정책 모드** 페이지에서 **정책을 즉시** 켭니다.
 
-1. **정책 검토 및 만들기** 페이지에서 설정을 검토한 다음 제출을 선택합니다 **.**
+1. 정책 검토 및 **만들기에서 제출**을 선택합니다****.
 
 1. **새 정책 생성** 페이지에서 완료**를 선택합니다**.
 
 이제 Microsoft Teams 채팅 및 채널에서 신용 카드 번호를 검색하고 사용자가 정책을 재정의할 비즈니스 근거를 제공할 수 있도록 하는 DLP 정책을 만들었습니다.
-
-## 작업 2 - DLP 정책 수정
-
-이 작업에서는 이전 단계에서 만든 기존 DLP 정책이 메일에서도 신용 카드 정보를 검사한 다음, 사용자가 해당 콘텐츠를 메일로 공유하려고 하면 알림을 표시하도록 수정합니다.
-
-1. 여전히 클라이언트 1 VM(LON-CL1)에 lon-cl1\admin 계정으로 **로그인해야 하며, Joni Sherman**으로 **Microsoft 365에 로그인해야** 합니다.
-
-1. **Microsoft Edge**에는 Microsoft Purview 포털 탭이 계속 열려 있어야 합니다. 그렇다면 선택하고 다음 단계로 진행합니다. 닫았다면 새 탭에서 **https://compliance.microsoft.com**으로 이동합니다.
-
-1. Microsoft Purview** 포털의 **왼쪽 탐색 창에서 데이터 손실 방지**를 확장**한 다음 정책을** 선택합니다**.
-
-1. **정책** 페이지에서 최근에 만든 **신용 카드 DLP 정책** 옆에 있는 검사 상자를 선택한 다음 정책 편집을 선택하여 **정책** 마법사를 시작합니다.
-
-1. **DLP 정책** 이름 페이지에서 다음**을 선택합니다**.
-
-1. **관리 단위** 할당 페이지에서 다음**을 선택합니다**.
-
-1. **정책** 페이지를 적용할 위치 선택 페이지에서 Exchange 전자 메일** 옵션을 사용하도록 설정한 **다음 정책 검토에 도달**하고 페이지를 만들** 때까지 다음**을 선택합니다**.
-
-1. 제출**을 선택하여 **정책에 변경한 내용을 적용합니다.
-
-1. 정책이 업데이트되면 완료**를 선택합니다**.
-
-이제 기존 DLP 정책을 수정하고 콘텐츠를 검색하는 위치를 변경했습니다.
-
-## 작업 3 - PowerShell에서 DLP 정책 만들기
-
-이 작업에서는 PowerShell을 사용하여 Contoso EmployeeID를 보호하고 Exchange에서 공유되지 않도록 DLP 정책을 만듭니다. 사용자는 중요한 데이터를 공유하려고 하며 Contoso EmployeeID가 포함된 메일을 보낼 수 없다는 알림을 받습니다.
-
-1. 여전히 클라이언트 1 VM(LON-CL1)에 lon-cl1\admin** 계정으로 **로그인해야 합니다.
-
-1. 시작 메뉴에서 Windows PowerShell**을 선택합니다**.
-
-1. 다음 cmdlet을 입력하여 최신 Exchange Online PowerShell 모듈 버전을 설치합니다.
-
-    ```powershell
-    Install-Module ExchangeOnlineManagement
-    ```
-
-1. Y** for Yes를 **사용하여 NuGet 공급자 보안 대화 상자를 확인하고 Enter 키를 누릅니**다**. 이 프로세스를 완료하는 데 다소 시간이 걸릴 수 있습니다.
-
-1. Y** for Yes를 **사용하여 신뢰할 수 없는 리포지토리 보안 대화 상자를 확인하고 Enter 키를 누릅니**다**. 이 프로세스를 완료하는 데 다소 시간이 걸릴 수 있습니다.
-
-1. 다음 cmdlet을 입력하여 실행 정책을 변경하고 Enter 키를 누릅니 **다.**
-
-    ```powershell
-    Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
-    ```
-
-1. **PowerShell** 창에서 입력
-
-    ```powershell
-    Connect-IPPSSession
-    ```
-
-   그런 다음 조니 셔먼**JoniS@WWLxZZZZZZ.onmicrosoft.com으로 **로그인합니다. Joni의 암호는 랩 호스팅 공급자가 제공해야 합니다.
-
-1. PowerShell에 다음 명령을 입력하여 모든 Exchange 사서함을 검사하는 DLP 정책을 만듭니다.
-
-    ```powershell
-    New-DlpCompliancePolicy -Name "EmployeeID DLP Policy" -Comment "This policy blocks sharing of Employee IDs" -ExchangeLocation All
-    ```
-
-1. PowerShell에 다음 명령을 입력하여 이전 단계에서 만든 DLP 정책에 DLP 규칙을 추가합니다.
-
-    ```powershell
-    New-DlpComplianceRule -Name "EmployeeID DLP rule" -Policy "EmployeeID DLP Policy" -BlockAccess $true -ContentContainsSensitiveInformation @{Name="Contoso Employee IDs"}
-    ```
-
-1. 다음 명령어를 사용하여 **EmployeeID DLP 규칙**을 검토합니다.
-
-    ```powershell
-    Get-DLPComplianceRule -Identity "EmployeeID DLP rule"
-    ```
-
-이제 PowerShell을 사용하여 Exchange에서 Contoso EmployeeID를 검사하는 DLP 정책을 만들었습니다.
-
-## 작업 4 - DLP 정책 테스트
-
-이 작업에서는 이전 작업에서 만든 DLP 정책을 테스트합니다.
-
-1. 여전히 클라이언트 1 VM(LON-CL1)에 lon-cl1\admin** 계정으로 **로그인하고 Joni Sherman으로 Microsoft 365에 로그인해야 합니다.
-
-1. Microsoft Edge 브라우저 창을 열고 다음으로 이동합니다. **https://outlook.office.com/** 
-
-1. **왼쪽 위에서 새 메일** 단추를 선택하여 새 전자 메일 메시지를 작성합니다.
-
-1. To** 필드에 Megan_을 **입력_하고 메건 보웬**의 이메일 주소를 선택합니다**.
-
-1. 제목 필드에 직원 정보에 대한 도움말을 입력 _합니다_.
-
-1. 전자 메일 본문에 다음을 입력합니다.
-
-    ``` text
-    Please help me with the start dates for the following employees:
-    ABC123456
-    DEF678901
-    GHI234567
-
-    Thank you, 
-    Joni Sherman
-    ```
-
-1. 메시지 창의 **오른쪽 위에 있는 보내기** 단추를 선택하여 전자 메일을 보냅니다.
-
-1. 전자 메일을 배달할 수 없으며 DLP 정책에 의해 차단되었다는 메시지가 표시됩니다.
-
-      ![역할 관리 옵션의 스크린샷](../Media/dlp-email-blocked.png)
-
-DLP 정책을 성공적으로 테스트했습니다.
-
-## 작업 5 - 테스트 모드에서 정책 활성화
-
-이 작업에서는 테스트 모드에서 만든 신용 카드 정보 DLP 정책을 활성화하여 보호 작업을 적용합니다.
-
-1. 여전히 클라이언트 1 VM(LON-CL1)에 lon-cl1\admin 계정으로 **로그인해야 하며, Joni Sherman**으로 **Microsoft 365에 로그인해야** 합니다.
-
-1. **Microsoft Edge**에는 Microsoft Purview 포털 탭이 계속 열려 있어야 합니다. 그렇다면 선택하고 다음 단계로 진행합니다. 닫았다면 새 탭에서 **https://compliance.microsoft.com**으로 이동합니다.
-
-1. Microsoft Purview** 포털의 **왼쪽 탐색 창에서 데이터 손실 방지**를 확장**한 다음 정책을** 선택합니다**.
-
-1. **정책** 페이지에서 신용 카드 DLP 정책** 옆에 있는 **검사 상자를 선택한 다음 정책 편집을 선택하여 **정책** 마법사를 시작합니다.
-
-1. **정책 모드** 페이지에 도달할 때까지 다음**을 **선택하고 바로** 켜기를 선택합니다**.
-
-1. 정책 검토 및 **만들기에서 제출**을 선택합니다****.
-
-1. **정책 업데이트** 페이지에서 완료**를 선택합니다**.
-
-DLP 정책을 성공적으로 활성화했습니다. 정책이 신용 카드 정보를 공유하려는 시도를 감지하면 이제 시도를 차단하고 사용자가 차단 작업을 재정의할 비즈니스 근거를 제공할 수 있습니다.
-
-## 작업 6 - 정책 우선 순위 수정
-
-두 개의 DLP 정책을 만든 후에는 덜 제한적인 정책보다 더 제한적인 정책이 더 높은 우선 순위로 처리되도록 해야 합니다. 이러한 이유로 EmployeeID DLP 정책을 더 높은 우선 순위로 이동하려고 합니다.
-
-1. 여전히 클라이언트 1 VM(LON-CL1)에 lon-cl1\admin 계정으로 **로그인해야 하며, Joni Sherman**으로 **Microsoft 365에 로그인해야** 합니다.
-
-1. **Microsoft Edge**에는 Microsoft Purview 포털 탭이 계속 열려 있어야 합니다. 그렇다면 선택하고 다음 단계로 진행합니다. 닫았다면 새 탭에서 **https://compliance.microsoft.com**으로 이동합니다.
-
-1. Microsoft Purview** 포털의 **왼쪽 탐색 창에서 데이터 손실 방지**를 확장**한 다음 정책을** 선택합니다**.
-
-1. 정책에서 **EmployeeID DLP 정책** 옆에 있는 **세 개의 세로 점을 선택하여 작업** 선택을 열고 **맨 위로** 이동을 선택합니다**.**
-
-1. **데이터 손실 방지** 창에서 **새로 고침**을 선택하고 정책 표의 **순서** 열에서 우선 순위를 검토합니다.
-
-1. 오른쪽 위에 Joni의 프로필 이미지가 있는 원을 선택하고 로그아웃**을 선택하여 **다음 연습을 위해 Joni의 계정에서 로그아웃합니다.
-
-DLP 정책의 우선 순위를 수정했습니다. 두 정책이 동일한 콘텐츠와 일치하는 경우 우선 순위가 높은 정책의 작업이 적용됩니다.
