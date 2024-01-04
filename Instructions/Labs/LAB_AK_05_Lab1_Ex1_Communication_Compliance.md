@@ -5,7 +5,7 @@ lab:
 ---
 ## WWL 테넌트 - 사용 약관
 
-강사 주도 교육 제공의 일부로 테넌트를 제공하는 경우, 강사 주도 교육에서 실습 랩을 지원하기 위해 테넌트를 사용할 수 있습니다.
+강사 진행 교육 제공의 일부로 테넌트를 제공하는 경우, 강사 진행 교육에서 실습 랩을 지원하기 위해 테넌트를 사용할 수 있습니다.
 
 테넌트를 실습 랩 외부에서 공유하거나 사용해서는 안 됩니다. 이 과정에서 사용되는 테넌트는 평가판 테넌트이며 클래스가 종료된 후 사용하거나 액세스할 수 없으며 확장판에서도 사용할 수 없습니다.
 
@@ -21,7 +21,7 @@ lab:
 
 1. 클라이언트 1 VM(LON-CL1)에 lon-cl1\admin** 계정으로 **로그인합니다.
 
-1. Microsoft Edge에서 MOD 관리istrator로 Microsoft Purview 포털로 이동하여 **https://compliance.microsoft.com** 로그인합니다(여기서 ZZZZZZ는 랩 호스팅 공급자가 제공하는 고유한 테넌트 ID임). **admin@WWLxZZZZZZ.onmicrosoft.com**  관리 암호는 랩 호스팅 공급자가 제공해야 합니다.
+1. Microsoft Edge에서 MOD 관리istrator로 Microsoft Purview 포털로 이동하여 **`https://compliance.microsoft.com`** 로그인합니다(여기서 ZZZZZZ는 랩 호스팅 공급자가 제공하는 고유한 테넌트 ID임). **admin@WWLxZZZZZZ.onmicrosoft.com**  관리 암호는 랩 호스팅 공급자가 제공해야 합니다.
 
 1. 역할 및 범위**로 **이동한 다음 드롭다운에서 사용 권한을** 선택합니다**.
 
@@ -49,7 +49,7 @@ Joni Sherman에 커뮤니케이션 규정 준수 역할을 성공적으로 할�
 
 이 연습에서는 중요한 재무 정보에 대한 통신을 모니터링하도록 Microsoft Communication Compliance에서 사용자 지정 정책을 구성합니다. 다음 단계에 따라 정책을 구성합니다.
 
-1. **Microsoft Edge**에서 **https://compliance.microsoft.com**으로 이동한 다음, Microsoft Purview 포털에 JoniS@WWLxZZZZZZ.onmicrosoft.com으로 로그인합니다(ZZZZZZ는 랩 호스팅 공급자가 제공한 고유 테넌트 ID임).
+1. **Microsoft Edge**에서 **`https://compliance.microsoft.com`** 으로 이동한 다음, Microsoft Purview 포털에 JoniS@WWLxZZZZZZ.onmicrosoft.com으로 로그인합니다(ZZZZZZ는 랩 호스팅 공급자가 제공한 고유 테넌트 ID임).
 
 1. 왼쪽 탐색 창에서 통신 준수**를 선택합니다**.
 
@@ -98,7 +98,7 @@ Joni Sherman에 커뮤니케이션 규정 준수 역할을 성공적으로 할�
 
 1. Joni의 계정에서 로그아웃하고 모든 브라우저 창을 닫습니다.
 
-1. **Microsoft Edge**에서 **https://outlook.office.com**으로 이동한 다음 웹에서 Outlook에 LynneR@WWLxZZZZZZ.onmicrosoft.com으로 로그인합니다(여기서 ZZZZZZ는 랩 호스팅 공급자가 제공하는 고유 테넌트 ID임).
+1. **Microsoft Edge**에서 **`https://outlook.office.com`** 으로 이동한 다음 웹에서 Outlook에 LynneR@WWLxZZZZZZ.onmicrosoft.com으로 로그인합니다(여기서 ZZZZZZ는 랩 호스팅 공급자가 제공하는 고유 테넌트 ID임).
 
 1. 웹용 Outlook의 왼쪽 위에서 **새 메일** 을 선택합니다.
 
@@ -128,7 +128,7 @@ Joni Sherman에 커뮤니케이션 규정 준수 역할을 성공적으로 할�
 
 이 작업에서는 Microsoft Purview 포털에서 통신 규정 준수 정책을 관리합니다. 금융 비밀** 검색 정책에 대한 **보류 중인 항목을 검토하고 조치를 취하여 잠재적인 규정 준수 문제를 식별하고 처리하기 위해 정책이 효과적으로 작동하는지 확인합니다.
 
-1. **Microsoft Edge**에서 **https://compliance.microsoft.com**으로 이동한 다음, Microsoft Purview 포털에 JoniS@WWLxZZZZZZ.onmicrosoft.com으로 로그인합니다(ZZZZZZ는 랩 호스팅 공급자가 제공한 고유 테넌트 ID임). Joni의 암호는 랩 호스팅 공급자가 제공해야 합니다.
+1. **Microsoft Edge**에서 **`https://compliance.microsoft.com`** 으로 이동한 다음, Microsoft Purview 포털에 JoniS@WWLxZZZZZZ.onmicrosoft.com으로 로그인합니다(ZZZZZZ는 랩 호스팅 공급자가 제공한 고유 테넌트 ID임). Joni의 암호는 랩 호스팅 공급자가 제공해야 합니다.
 
 1. **왼쪽 탐색 모음에서 통신 준수**로 이동합니다.
 

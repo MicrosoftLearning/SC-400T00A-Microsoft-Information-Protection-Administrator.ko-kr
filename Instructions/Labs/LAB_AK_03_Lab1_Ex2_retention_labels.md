@@ -16,7 +16,7 @@ lab:
 
 1. 클라이언트 1 VM(LON-CL1)에 lon-cl1\admin** 계정으로 **로그인합니다.
 
-1. **Microsoft Edge**에서 **https://compliance.microsoft.com**으로 이동하고 Microsoft Purview 포털에 **Joni Sherman**으로 로그인합니다.
+1. **Microsoft Edge**에서 **`https://compliance.microsoft.com`** 으로 이동하고 Microsoft Purview 포털에 **Joni Sherman**으로 로그인합니다.
 
 1. Microsoft Purview 포털의 **왼쪽 탐색 창에서 데이터 수명 주기 관리를** 확장**한 다음, Microsoft 365**를 선택합니다**.**
 
@@ -78,7 +78,7 @@ lab:
 
 1. 여전히 클라이언트 1 VM(LON-CL1)에 lon-cl1\admin 계정으로 **로그인해야 하며, Joni Sherman**으로 **Microsoft 365에 로그인해야** 합니다.
 
-1. **Microsoft Edge**에는 Microsoft Purview 포털 탭이 계속 열려 있어야 합니다. 그렇다면 선택하고 다음 단계로 진행합니다. 닫았다면 새 탭에서 **https://compliance.microsoft.com**으로 이동합니다.
+1. **Microsoft Edge**에는 Microsoft Purview 포털 탭이 계속 열려 있어야 합니다. 그렇다면 선택하고 다음 단계로 진행합니다. 닫았다면 새 탭에서 **`https://compliance.microsoft.com`** 으로 이동합니다.
 
 1. Microsoft Purview 포털의 **왼쪽 탐색 창에서 데이터 수명 주기 관리를** 확장**한 다음, Microsoft 365**를 선택합니다**.**
 
@@ -122,7 +122,7 @@ VAT 반환 및 지원 문서에 대한 보존 레이블을 성공적으로 게�
 
 1. 여전히 클라이언트 1 VM(LON-CL1)에 lon-cl1\admin 계정으로 **로그인해야 하며, Joni Sherman**으로 **Microsoft 365에 로그인해야** 합니다.
 
-1. **Microsoft Edge**에는 Microsoft Purview 포털 탭이 계속 열려 있어야 합니다. 그렇다면 선택하고 다음 단계로 진행합니다. 닫았다면 새 탭에서 **https://compliance.microsoft.com**으로 이동합니다.
+1. **Microsoft Edge**에는 Microsoft Purview 포털 탭이 계속 열려 있어야 합니다. 그렇다면 선택하고 다음 단계로 진행합니다. 닫았다면 새 탭에서 **`https://compliance.microsoft.com`** 으로 이동합니다.
 
 1. **Microsoft Purview** 포털의 왼쪽 탐색 창에서 **정책**을 선택하고 **데이터**에서 **보존**을 선택합니다.
 
@@ -176,7 +176,7 @@ VAT 반환 및 지원 문서에 대한 보존 레이블을 성공적으로 게�
 
 1. 클라이언트 1 VM(LON-CL1)에 lon-cl1\admin** 계정으로 **로그인합니다.
 
-1. Microsoft Edge에서 **Megan Bowen**의 계정으로 **이동하여 **https://outlook.office.com/** 로그인합니다.**
+1. Microsoft Edge에서 **Megan Bowen**의 계정으로 **이동하여 **`https://outlook.office.com/`** 로그인합니다.**
 
 1. Megan의 받은 편지함에서 마우스 오른쪽 단추가 있는 첫 번째 전자 메일을 선택한 다음, VAT 반환 및 지원 문서를** > 정책 할당 > 고급 작업을 선택합니다**. 새로 만든 레이블을 사용할 수 없는 경우 이 연습에서 1개월 삭제**를 선택합니다**.
 
@@ -214,7 +214,7 @@ Outlook 폴더에 보존 레이블을 적용했습니다.
 
 1. 여전히 클라이언트 1 VM(LON-CL1)에 lon-cl1\admin** 계정으로 **로그인해야 합니다.
 
-1. **Microsoft Edge**에서 **https://www.office.com**으로 이동한 다음 Microsoft 365에 **Joni Sherman**으로 로그인합니다.
+1. **Microsoft Edge**에서 **`https://www.office.com`** 으로 이동한 다음 Microsoft 365에 **Joni Sherman**으로 로그인합니다.
 
 1. Microsoft 365 방문 페이지의 왼쪽 위 모서리에 있는 앱 시작 관리자 아이콘(9개의 점이 있는 아이콘)을 선택한 다음 하위 메뉴에서 SharePoint**를 선택합니다**.
 1. 메시지가 표시되면 **SharePoint 시작 페이지** 창을 닫습니다.
@@ -241,7 +241,7 @@ SharePoint의 문서에 보존 레이블을 적용했습니다.
 
 1. 여전히 클라이언트 1 VM(LON-CL1)에 lon-cl1\admin 계정으로 **로그인해야 하며, Joni Sherman**으로 **Microsoft 365에 로그인해야** 합니다.
 
-1. **Microsoft Edge**에서 **https://www.office.com**으로 이동한 다음 Microsoft 365에 **Joni Sherman**으로 로그인합니다.
+1. **Microsoft Edge**에서 **`https://www.office.com`** 으로 이동한 다음 Microsoft 365에 **Joni Sherman**으로 로그인합니다.
 
 1. Microsoft 365 방문 페이지의 왼쪽 위 모서리에 있는 앱 시작 관리자 아이콘(9개의 점이 있는 아이콘)을 선택한 다음 하위 메뉴에서 OneDrive**를 선택합니다**.
 

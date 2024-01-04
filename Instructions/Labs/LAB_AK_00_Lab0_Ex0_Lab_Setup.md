@@ -6,7 +6,7 @@ lab:
 
 ## WWL 테넌트 - 사용 약관
 
-강사 주도 교육 제공의 일부로 테넌트를 제공하는 경우, 강사 주도 교육에서 실습 랩을 지원하기 위해 테넌트를 사용할 수 있습니다.
+강사 진행 교육 제공의 일부로 테넌트를 제공하는 경우, 강사 진행 교육에서 실습 랩을 지원하기 위해 테넌트를 사용할 수 있습니다.
 
 테넌트를 실습 랩 외부에서 공유하거나 사용해서는 안 됩니다. 이 과정에서 사용되는 테넌트는 평가판 테넌트이며 클래스가 종료된 후 사용하거나 액세스할 수 없으며 확장판에서도 사용할 수 없습니다.
 
@@ -48,7 +48,7 @@ lab:
 
 1. 여전히 클라이언트 1 VM(LON-CL1)에 lon-cl1\admin** 계정으로 **로그인하고 MOD 관리istrator 계정으로 Microsoft 365에 로그인해야 합니다.
 
-1. **Microsoft Edge**에서 **https://compliance.microsoft.com**으로 이동합니다.
+1. **Microsoft Edge**에서 **`https://compliance.microsoft.com`** 으로 이동합니다.
 
 1. 왼쪽 탐색 창에서 감사를** 선택합니다**.
 
@@ -60,7 +60,7 @@ lab:
 
 1. 여전히 클라이언트 1 VM(LON-CL1)에 lon-cl1\admin** 계정으로 **로그인하고 MOD 관리istrator 계정으로 Microsoft 365에 로그인해야 합니다.
 
-1. **Microsoft Edge**에서 **https://admin.teams.microsoft.com**으로 이동합니다.
+1. **Microsoft Edge**에서 **`https://admin.teams.microsoft.com`** 으로 이동합니다.
 
 1. 왼쪽 탐색 창의 Teams** 드롭다운 아래에서 **Teams 설정을** 선택합니다**.
 

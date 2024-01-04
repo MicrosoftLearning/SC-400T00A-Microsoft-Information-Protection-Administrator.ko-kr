@@ -14,7 +14,7 @@ Contoso Ltd의 규정 준수 관리 Joni Sherman의 역할을 맡게 됩니다. 
 
 1. 클라이언트 1 가상 머신(LON-CL1)에 lon-cl1\admin** 계정으로 **로그인합니다.
 
-1. **Microsoft Edge**에서 **https://admin.exchange.microsoft.com**로 이동한 다음 Exchange 관리 센터에 **Joni Sherman**으로 로그인합니다. JoniS@WWLxZZZZZZ.onmicrosoft.com으로 로그인합니다(여기서 ZZZZZZ는 랩 호스팅 공급자가 제공한 고유 테넌트 ID입니다).
+1. **Microsoft Edge**에서 **`https://admin.exchange.microsoft.com`** 로 이동한 다음 Exchange 관리 센터에 **Joni Sherman**으로 로그인합니다. JoniS@WWLxZZZZZZ.onmicrosoft.com으로 로그인합니다(여기서 ZZZZZZ는 랩 호스팅 공급자가 제공한 고유 테넌트 ID입니다).
 
 1. 표시되는 경우 모든 팁 창을 닫습니다.
 
@@ -45,7 +45,7 @@ Contoso Ltd의 규정 준수 관리 Joni Sherman의 역할을 맡게 됩니다. 
 
 1. 클라이언트 1 VM(LON-CL1)에 lon-cl1\admin** 계정으로 **로그인합니다.
 
-1. **Microsoft Edge**에서 **https://www.office.com**으로 이동한 다음, Microsoft 365에 **Joni Sherman**으로 로그인합니다.
+1. **Microsoft Edge**에서 **`https://www.office.com`** 으로 이동한 다음, Microsoft 365에 **Joni Sherman**으로 로그인합니다.
 
 1. 시작 화면이 표시되면 닫습니다. Office 365 앱 알림이 표시되면 닫습니다.
 

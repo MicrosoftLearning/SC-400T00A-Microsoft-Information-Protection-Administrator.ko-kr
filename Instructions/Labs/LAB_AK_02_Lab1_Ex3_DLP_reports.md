@@ -14,7 +14,7 @@ lab:
 
 1. 클라이언트 1 VM(LON-CL1)에 lon-cl1\admin** 계정으로 **로그인합니다.
 
-1. **Microsoft Edge**에서 **https://compliance.microsoft.com**으로 이동한 다음, Microsoft Purview 포털에 **MOD 관리자** admin@WWLxZZZZZZ.onmicrosoft.com으로 로그인합니다(ZZZZZZ는 랩 호스팅 공급자가 제공한 고유 테넌트 ID임). 관리 암호는 랩 호스팅 공급자가 제공해야 합니다.
+1. **Microsoft Edge**에서 **`https://compliance.microsoft.com`** 으로 이동한 다음, Microsoft Purview 포털에 **MOD 관리자** admin@WWLxZZZZZZ.onmicrosoft.com으로 로그인합니다(ZZZZZZ는 랩 호스팅 공급자가 제공한 고유 테넌트 ID임). 관리 암호는 랩 호스팅 공급자가 제공해야 합니다.
 
 1. 왼쪽 탐색 창에서 역할 및 범위를 확장**한** 다음 사용 권한을** 선택합니다**.
 
@@ -42,7 +42,7 @@ Microsoft 365 규정 준수 포털에서 신임 준수 관리자에게 DLP 보�
 
 1. **lon-cl2\admin** 계정으로 클라이언트 2 VM(LON-CL2)에 로그인합니다.
 
-1. **Microsoft Edge**에서 **https://compliance.microsoft.com**으로 이동한 다음, Microsoft Purview 포털에 **Megan Bowen** MeganB@WWLxZZZZZZ.onmicrosoft.com으로 로그인합니다(ZZZZZZ는 랩 호스팅 공급자가 제공한 고유 테넌트 ID임).
+1. **Microsoft Edge**에서 **`https://compliance.microsoft.com`** 으로 이동한 다음, Microsoft Purview 포털에 **Megan Bowen** MeganB@WWLxZZZZZZ.onmicrosoft.com으로 로그인합니다(ZZZZZZ는 랩 호스팅 공급자가 제공한 고유 테넌트 ID임).
 
 1. 왼쪽 탐색 창에서 데이터 손실 방지**를 위한 드롭다운을 **선택한 다음, 활동 탐색기를** 선택합니다**.
 

@@ -14,7 +14,7 @@ lab:
 
 1. 여전히 클라이언트 1 VM(LON-CL1)에 lon-cl1\admin 계정으로 **로그인해야 하며, Joni Sherman**으로 **Microsoft 365에 로그인해야** 합니다.
 
-1. **Microsoft Edge**에는 Microsoft Purview 포털 탭이 계속 열려 있어야 합니다. 그렇다면 선택하고 다음 단계로 진행합니다. 닫았다면 새 탭에서 **https://compliance.microsoft.com**으로 이동합니다.
+1. **Microsoft Edge**에는 Microsoft Purview 포털 탭이 계속 열려 있어야 합니다. 그렇다면 선택하고 다음 단계로 진행합니다. 닫았다면 새 탭에서 **`https://compliance.microsoft.com`** 으로 이동합니다.
 
 1. 포털의 왼쪽 탐색 창에서 **eDiscovery**를 확장하고 **표준**을 선택합니다.
 
@@ -52,7 +52,7 @@ eDiscovery 사례를 성공적으로 만들고 Mark 8 프로젝트에 대한 정
 
 1. **Microsoft Edge**에는 Microsoft Purview 포털 탭이 계속 열려 있어야 합니다. 오른쪽 위 모서리에 있는 **Joni Sherman**의 **프로필 사진**을 선택하고 **로그아웃**을 선택합니다. 그런 다음, 브라우저를 닫습니다.
 
-1. **Microsoft Edge**에서 **https://compliance.microsoft.com**으로 이동한 다음, Microsoft Purview 포털에 **MOD 관리자** admin@WWLxZZZZZZ.onmicrosoft.com으로 로그인합니다(ZZZZZZ는 랩 호스팅 공급자가 제공한 고유 테넌트 ID임). 관리 암호는 랩 호스팅 공급자가 제공해야 합니다.
+1. **Microsoft Edge**에서 **`https://compliance.microsoft.com`** 으로 이동한 다음, Microsoft Purview 포털에 **MOD 관리자** admin@WWLxZZZZZZ.onmicrosoft.com으로 로그인합니다(ZZZZZZ는 랩 호스팅 공급자가 제공한 고유 테넌트 ID임). 관리 암호는 랩 호스팅 공급자가 제공해야 합니다.
 
 1. 왼쪽 탐색 창에서 역할 및 범위를 확장**한** 다음 사용 권한을** 선택합니다**.
 
@@ -98,7 +98,7 @@ eDiscovery 사례를 성공적으로 만들고 Mark 8 프로젝트에 대한 정
 
 1. **Microsoft Edge**에는 Microsoft Purview 포털 탭이 계속 열려 있어야 합니다. 오른쪽 위 모서리에 있는 **MOD 관리자**의 **프로필 사진**을 선택하고 **로그아웃**을 선택합니다. 그런 다음, 브라우저를 닫습니다.
 
-1. **Microsoft Edge**를 열고 **https://compliance.microsoft.com**으로 이동한 다음, Microsoft Purview 포털에 **Joni Sherman** JoniS@WWLxZZZZZZ.onmicrosoft.com으로 로그인합니다(ZZZZZZ는 랩 호스팅 공급자가 제공한 고유 테넌트 ID임).  Joni의 암호는 랩 호스팅 공급자가 제공해야 합니다.
+1. **Microsoft Edge**를 열고 **`https://compliance.microsoft.com`** 으로 이동한 다음, Microsoft Purview 포털에 **Joni Sherman** JoniS@WWLxZZZZZZ.onmicrosoft.com으로 로그인합니다(ZZZZZZ는 랩 호스팅 공급자가 제공한 고유 테넌트 ID임).  Joni의 암호는 랩 호스팅 공급자가 제공해야 합니다.
 
 1. **Microsoft Purview** 포털의 왼쪽 탐색 창에서 **eDiscovery**를 확장하고 **표준**을 선택합니다.
 
@@ -131,7 +131,7 @@ eDiscovery 사례를 성공적으로 만들고 Mark 8 프로젝트에 대한 정
 
 1. 여전히 클라이언트 1 VM(LON-CL1)에 lon-cl1\admin 계정으로 **로그인해야 하며, Joni Sherman**으로 **Microsoft 365에 로그인해야** 합니다.
 
-1. **Microsoft Edge**에는 Microsoft Purview 포털 탭이 계속 열려 있어야 합니다. 그렇다면 선택하고 다음 단계로 진행합니다. 닫았다면 새 탭에서 **https://compliance.microsoft.com**으로 이동합니다.
+1. **Microsoft Edge**에는 Microsoft Purview 포털 탭이 계속 열려 있어야 합니다. 그렇다면 선택하고 다음 단계로 진행합니다. 닫았다면 새 탭에서 **`https://compliance.microsoft.com`** 으로 이동합니다.
 
 1. Purview 포털의 왼쪽 탐색 창에서 **콘텐츠 검색**을 선택합니다.
 

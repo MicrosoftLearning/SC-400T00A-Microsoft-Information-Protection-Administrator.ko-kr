@@ -5,7 +5,7 @@ lab:
 ---
 ## WWL 테넌트 - 사용 약관
 
-강사 주도 교육 제공의 일부로 테넌트를 제공하는 경우, 강사 주도 교육에서 실습 랩을 지원하기 위해 테넌트를 사용할 수 있습니다.
+강사 진행 교육 제공의 일부로 테넌트를 제공하는 경우, 강사 진행 교육에서 실습 랩을 지원하기 위해 테넌트를 사용할 수 있습니다.
 
 테넌트를 실습 랩 외부에서 공유하거나 사용해서는 안 됩니다. 이 과정에서 사용되는 테넌트는 평가판 테넌트이며 클래스가 종료된 후 사용하거나 액세스할 수 없으며 확장판에서도 사용할 수 없습니다.
 
@@ -21,7 +21,7 @@ lab:
 
 1. 클라이언트 1 VM(LON-CL1)에 lon-cl1\admin** 계정으로 **로그인합니다.
 
-1. **Microsoft Edge**에서 **https://compliance.microsoft.com**으로 이동하고 Microsoft Purview 포털에 **Joni Sherman**으로 로그인합니다. JoniS@WWLxZZZZZZ.onmicrosoft.com으로 로그인합니다(여기서 ZZZZZZ는 랩 호스팅 공급자가 제공한 고유 테넌트 ID입니다).  Joni의 암호는 랩 호스팅 공급자가 제공해야 합니다.
+1. **Microsoft Edge**에서 **`https://compliance.microsoft.com`** 으로 이동하고 Microsoft Purview 포털에 **Joni Sherman**으로 로그인합니다. JoniS@WWLxZZZZZZ.onmicrosoft.com으로 로그인합니다(여기서 ZZZZZZ는 랩 호스팅 공급자가 제공한 고유 테넌트 ID입니다).  Joni의 암호는 랩 호스팅 공급자가 제공해야 합니다.
 
 1. **로그인 상태를 유지하시겠습니까?** 대화 상자가 나타나면 **다시 표시하지 않음** 확인란을 선택한 다음, **아니요**를 선택합니다.
 
@@ -86,7 +86,7 @@ lab:
 
 1. 여전히 클라이언트 1 VM(LON-CL1)에 lon-cl1\admin 계정으로 **로그인해야 하며, Joni Sherman**으로 **Microsoft 365에 로그인해야** 합니다.
 
-1. **Microsoft Edge**에는 Microsoft Purview 포털 탭이 계속 열려 있어야 합니다. 그렇다면 선택하고 다음 단계로 진행합니다. 닫았다면 새 탭에서 **https://compliance.microsoft.com**으로 이동합니다.
+1. **Microsoft Edge**에는 Microsoft Purview 포털 탭이 계속 열려 있어야 합니다. 그렇다면 선택하고 다음 단계로 진행합니다. 닫았다면 새 탭에서 **`https://compliance.microsoft.com`** 으로 이동합니다.
 
 1. Microsoft Purview** 포털의 **왼쪽 탐색 창에서 데이터 손실 방지**를 확장**한 다음 정책을** 선택합니다**.
 
@@ -146,7 +146,7 @@ lab:
 
 1. 여전히 클라이언트 1 VM(LON-CL1)에 lon-cl1\admin** 계정으로 **로그인하고 Joni Sherman으로 Microsoft 365에 로그인해야 합니다.
 
-1. Microsoft Edge 브라우저 창을 열고 다음으로 이동합니다. **https://outlook.office.com/** 
+1. Microsoft Edge 브라우저 창을 열고 다음으로 이동합니다. **`https://outlook.office.com/`** 
 
 1. **왼쪽 위에서 새 메일** 단추를 선택하여 새 전자 메일 메시지를 작성합니다.
 
@@ -180,7 +180,7 @@ DLP 정책을 성공적으로 테스트했습니다.
 
 1. 여전히 클라이언트 1 VM(LON-CL1)에 lon-cl1\admin 계정으로 **로그인해야 하며, Joni Sherman**으로 **Microsoft 365에 로그인해야** 합니다.
 
-1. **Microsoft Edge**에는 Microsoft Purview 포털 탭이 계속 열려 있어야 합니다. 그렇다면 선택하고 다음 단계로 진행합니다. 닫았다면 새 탭에서 **https://compliance.microsoft.com**으로 이동합니다.
+1. **Microsoft Edge**에는 Microsoft Purview 포털 탭이 계속 열려 있어야 합니다. 그렇다면 선택하고 다음 단계로 진행합니다. 닫았다면 새 탭에서 **`https://compliance.microsoft.com`** 으로 이동합니다.
 
 1. Microsoft Purview** 포털의 **왼쪽 탐색 창에서 데이터 손실 방지**를 확장**한 다음 정책을** 선택합니다**.
 
@@ -200,7 +200,7 @@ DLP 정책을 성공적으로 활성화했습니다. 정책이 신용 카드 정
 
 1. 여전히 클라이언트 1 VM(LON-CL1)에 lon-cl1\admin 계정으로 **로그인해야 하며, Joni Sherman**으로 **Microsoft 365에 로그인해야** 합니다.
 
-1. **Microsoft Edge**에는 Microsoft Purview 포털 탭이 계속 열려 있어야 합니다. 그렇다면 선택하고 다음 단계로 진행합니다. 닫았다면 새 탭에서 **https://compliance.microsoft.com**으로 이동합니다.
+1. **Microsoft Edge**에는 Microsoft Purview 포털 탭이 계속 열려 있어야 합니다. 그렇다면 선택하고 다음 단계로 진행합니다. 닫았다면 새 탭에서 **`https://compliance.microsoft.com`** 으로 이동합니다.
 
 1. Microsoft Purview** 포털의 **왼쪽 탐색 창에서 데이터 손실 방지**를 확장**한 다음 정책을** 선택합니다**.
 
@@ -218,7 +218,7 @@ Microsoft 365 Defender의 파일 정책을 사용하여 OneDrive 및 SharePoint 
 
 1. **Microsoft Edge**에는 Microsoft Purview 포털 탭이 계속 열려 있어야 합니다. 오른쪽 상단에서 Joni Sherman의 **프로필 사진**을 선택하고 **로그아웃**을 선택한 다음, 브라우저를 닫습니다.
 
-1. Microsoft Edge를 열고 **MOD 관리istrator admin@WWLxZZZZZZ.onmicrosoft.com** 로 **Microsoft 365 Defender 포털로 이동하여https://security.microsoft.com** **로그인합니다(여기서 ZZZZZZ는 랩 호스팅 공급자가 제공하는 고유한 테넌트 ID임).** 관리 암호는 랩 호스팅 공급자가 제공해야 합니다.
+1. Microsoft Edge를 열고 **MOD 관리istrator admin@WWLxZZZZZZ.onmicrosoft.com** 로 **Microsoft 365 Defender 포털로 이동하여`https://security.microsoft.com`** **로그인합니다(여기서 ZZZZZZ는 랩 호스팅 공급자가 제공하는 고유한 테넌트 ID임).** 관리 암호는 랩 호스팅 공급자가 제공해야 합니다.
 
 1. 왼쪽 탐색 창에서 아래로 스크롤한 다음 설정** 선택합니다**.
 
@@ -238,7 +238,7 @@ Microsoft 365 Defender에서 파일 모니터링을 사용하도록 설정했으
 
 1. **Microsoft Edge**에서 클라우드용 Microsoft Defender 앱 포털 탭이 계속 열려 있어야 합니다. **오른쪽 위에 있는 MOD 관리 프로필 사진을** 선택하고 코그 휠 옆에 있는 로그아웃**을 선택한 **다음 브라우저를 닫습니다.
 
-1. Microsoft Edge를 열고 **Joni Sherman** JoniS@WWLxZZZZZZ.onmicrosoft.com 으로 Microsoft 365 Defender 포털로 **이동하여https://security.microsoft.com** **로그인합니다(여기서 ZZZZZZ는 랩 호스팅 공급자가 제공하는 고유한 테넌트 ID임).** Joni Sherman의 암호는 랩 호스팅 공급자가 제공해야 합니다.
+1. Microsoft Edge를 열고 **Joni Sherman** JoniS@WWLxZZZZZZ.onmicrosoft.com 으로 Microsoft 365 Defender 포털로 **이동하여`https://security.microsoft.com`** **로그인합니다(여기서 ZZZZZZ는 랩 호스팅 공급자가 제공하는 고유한 테넌트 ID임).** Joni Sherman의 암호는 랩 호스팅 공급자가 제공해야 합니다.
 
 1. **Microsoft 365 Defender** 포털의 왼쪽 탐색 영역에서 클라우드 앱** 섹션까지 **아래로 스크롤한 다음 파일을 선택합니다****.
 
@@ -277,7 +277,7 @@ Microsoft 365 Defender에서 파일 모니터링을 사용하도록 설정했으
 
 1. 클라이언트 2 VM(LON-CL1)에 lon-cl2\admin** 계정으로 **로그인합니다.
 
-1. **Microsoft Edge**에서 **https://admin.powerplatform.microsoft.com**으로 이동한 다음 Power Platform 관리 센터에 **MOD 관리자** admin@WWLxZZZZZZ.onmicrosoft.com으로 로그인합니다(ZZZZZZ는 랩 호스팅 공급자가 제공한 고유 테넌트 ID임).  관리 암호는 랩 호스팅 공급자가 제공해야 합니다.
+1. **Microsoft Edge**에서 **`https://admin.powerplatform.microsoft.com`** 으로 이동한 다음 Power Platform 관리 센터에 **MOD 관리자** admin@WWLxZZZZZZ.onmicrosoft.com으로 로그인합니다(ZZZZZZ는 랩 호스팅 공급자가 제공한 고유 테넌트 ID임).  관리 암호는 랩 호스팅 공급자가 제공해야 합니다.
 
 1. **Power Platform 관리 센터**의 왼쪽 탐색 창에서 **정책**에 대한 드롭다운을 선택하고 **데이터 정책**을 선택합니다.
 
