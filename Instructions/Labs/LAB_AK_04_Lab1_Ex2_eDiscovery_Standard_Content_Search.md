@@ -14,7 +14,7 @@ lab:
 
 1. 클라이언트 1 VM(LON-CL1)에 lon-cl1\admin** 계정으로 **로그인합니다.
 
-1. **Microsoft Edge**에서 **https://compliance.microsoft.com**으로 이동한 다음, Microsoft Purview 포털에 **Joni Sherman** JoniS@WWLxZZZZZZ.onmicrosoft.com으로 로그인합니다(ZZZZZZ는 랩 호스팅 공급자가 제공한 고유 테넌트 ID임).
+1. **Microsoft Edge**에서 **`https://compliance.microsoft.com`** 으로 이동한 다음, Microsoft Purview 포털에 **Joni Sherman** JoniS@WWLxZZZZZZ.onmicrosoft.com으로 로그인합니다(ZZZZZZ는 랩 호스팅 공급자가 제공한 고유 테넌트 ID임).
 
 1. 왼쪽 탐색 창에서 eDiscovery**에 대한 **드롭다운을 선택한 다음, 표준을** 선택합니다**.
 
@@ -40,7 +40,7 @@ lab:
 
 작업 2에서는 이전에 만든 "잘못된 종료 사례"의 일부로 eDiscovery(표준) 보류를 만듭니다. 이 보류는 Contoso Ltd. 부당 해지 소송과 관련된 모든 관련 전자 데이터를 보존합니다.
 
-1. 여전히 Joni의 계정으로 로그인해야 합니다. 그렇지 않은 경우 Microsoft Edge를 열고 **Microsoft Purview 포털로 이동하여**https://compliance.microsoft.com** Joni Sherman**으로 **로그인합니다.**
+1. 여전히 Joni의 계정으로 로그인해야 합니다. 그렇지 않은 경우 Microsoft Edge를 열고 **Microsoft Purview 포털로 이동하여**`https://compliance.microsoft.com`** Joni Sherman**으로 **로그인합니다.**
 
 1. 왼쪽 탐색 창에서 eDiscovery**로 이동**한 다음, 표준을** 선택합니다**.
 
@@ -74,7 +74,7 @@ eDiscovery(표준) 보류를 성공적으로 만들었습니다.
 
 작업 3에서는 이전에 만든 "잘못된 종료 사례" 내에서 eDiscovery(표준) 검색을 수행합니다. 이 검색은 Contoso Ltd. 부당 해지 소송과 관련된 모든 관련 전자 데이터를 식별하고 수집하는 것을 목표로 합니다.
 
-1. 여전히 Joni의 계정으로 로그인해야 합니다. 그렇지 않은 경우 Microsoft Edge를 열고 **Microsoft Purview 포털로 이동하여**https://compliance.microsoft.com** Joni Sherman**으로 **로그인합니다.**
+1. 여전히 Joni의 계정으로 로그인해야 합니다. 그렇지 않은 경우 Microsoft Edge를 열고 **Microsoft Purview 포털로 이동하여**`https://compliance.microsoft.com`** Joni Sherman**으로 **로그인합니다.**
 
 1. 왼쪽 탐색 창에서 eDiscovery**로 이동**한 다음, 표준을** 선택합니다**.
 
@@ -106,7 +106,7 @@ KQL 편집기를 사용하여 "잘못된 종료 검색"을 성공적으로 만�
 
 이 작업에서는 "잘못된 종료 검색"에서 얻은 검색 결과를 내보냅니다.
 
-1. 여전히 Joni의 계정으로 로그인해야 합니다. 그렇지 않은 경우 Microsoft Edge에서 **Joni Sherman**으로 Microsoft Purview 포털로 **이동하여 **https://compliance.microsoft.com** 로그인합니다.**
+1. 여전히 Joni의 계정으로 로그인해야 합니다. 그렇지 않은 경우 Microsoft Edge에서 **Joni Sherman**으로 Microsoft Purview 포털로 **이동하여 **`https://compliance.microsoft.com`** 로그인합니다.**
 
 1. 왼쪽 탐색 창에서 eDiscovery**로 이동**한 다음, 표준을** 선택합니다**.
 
@@ -164,7 +164,7 @@ KQL 편집기를 사용하여 "잘못된 종료 검색"을 성공적으로 만�
 
 이 작업에서는 "잘못된 종료 검색"에서 얻은 검색 결과를 검토하여 사례와 관련된 잠재적인 보안 또는 규정 준수 문제를 식별합니다.
 
-1. 여전히 Joni의 계정으로 로그인해야 합니다. 그렇지 않은 경우 Microsoft Edge에서 **Joni Sherman**으로 Microsoft Purview 포털로 **이동하여 **https://compliance.microsoft.com** 로그인합니다.**
+1. 여전히 Joni의 계정으로 로그인해야 합니다. 그렇지 않은 경우 Microsoft Edge에서 **Joni Sherman**으로 Microsoft Purview 포털로 **이동하여 **`https://compliance.microsoft.com`** 로그인합니다.**
 
 1. 왼쪽 탐색 창에서 eDiscovery**로 이동**한 다음, 표준을** 선택합니다**.
 

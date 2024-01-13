@@ -16,7 +16,7 @@ Contoso Ltd.의 규정 준수 관리 주체인 Joni는 Microsoft 365에서 Infor
 
 1. Joni의 계정으로 로그인한 경우 이 계정에서 로그아웃하고 모든 브라우저 창을 닫습니다.
 
-1. Microsoft Edge에서 **MOD 관리istrator admin@WWLxZZZZZZ.onmicrosoft.com 로 Microsoft Purview 포털로 이동하여 **https://admin.teams.microsoft.com** 로그인합니다(여기서 ZZZZZZ는 랩 호스팅 공급자가 제공하는 고유한 테넌트 ID임).**
+1. Microsoft Edge에서 **MOD 관리istrator admin@WWLxZZZZZZ.onmicrosoft.com 로 Microsoft Purview 포털로 이동하여 **`https://admin.teams.microsoft.com`** 로그인합니다(여기서 ZZZZZZ는 랩 호스팅 공급자가 제공하는 고유한 테넌트 ID임).**
 
 1. 왼쪽 탐색 창의 Teams 드롭다운 아래에서 **Teams** 설정을 선택합니다 **.**
 

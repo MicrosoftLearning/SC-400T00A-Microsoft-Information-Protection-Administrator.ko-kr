@@ -14,7 +14,7 @@ lab:
 
 1. 여전히 클라이언트 1 VM(LON-CL1)에 lon-cl1\admin 계정으로 **로그인해야 하며, Joni Sherman**으로 **Microsoft 365에 로그인해야** 합니다. JoniS@WWLxZZZZZZ.onmicrosoft.com으로 로그인합니다(여기서 ZZZZZZ는 랩 호스팅 공급자가 제공한 고유 테넌트 ID입니다).
 
-1. **Microsoft Edge**에는 Microsoft Purview 포털 탭이 계속 열려 있어야 합니다. 그렇다면 선택하고 다음 단계로 진행합니다. 닫았다면 새 탭에서 **https://compliance.microsoft.com**으로 이동합니다.
+1. **Microsoft Edge**에는 Microsoft Purview 포털 탭이 계속 열려 있어야 합니다. 그렇다면 선택하고 다음 단계로 진행합니다. 닫았다면 새 탭에서 **`https://compliance.microsoft.com`** 으로 이동합니다.
 
 1. **Microsoft Purview** 포털의 왼쪽 탐색 창에서 **설정**, **디바이스 온보딩**을 선택합니다.
 
@@ -32,7 +32,7 @@ lab:
 
 1. 클라이언트 1 VM(LON-CL1)에 lon-cl1\admin** 계정으로 **로그인합니다.
 
-1. Microsoft Edge에서 **이동하여https://compliance.microsoft.com** **Joni Sherman**으로 **Microsoft 365에 로그인해야 합니다.**
+1. Microsoft Edge에서 **이동하여`https://compliance.microsoft.com`** **Joni Sherman**으로 **Microsoft 365에 로그인해야 합니다.**
 
 1. **Microsoft Purview** 포털의 왼쪽 탐색 창에서 **설정**, **디바이스 온보딩**을 선택합니다.
 
@@ -77,7 +77,7 @@ lab:
 
 1. 클라이언트 1 VM(LON-CL1)에 lon-cl1\admin 계정으로 로그온합니다.
 
-1. 작업 표시줄에서 Microsoft Edge를 열고 로그인 창이 표시되면 Microsoft Purview 포털(https://compliance.microsoft.com)로 이동하여 JoniS@WWLxZZZZZZ.onmicrosoft.com으로 로그인합니다(여기서 ZZZZZZ는 랩 호스팅 공급자가 제공한 고유 테넌트 ID임).
+1. 작업 표시줄에서 Microsoft Edge를 열고 로그인 창이 표시되면 Microsoft Purview 포털(`https://compliance.microsoft.com`)로 이동하여 JoniS@WWLxZZZZZZ.onmicrosoft.com으로 로그인합니다(여기서 ZZZZZZ는 랩 호스팅 공급자가 제공한 고유 테넌트 ID임).
 
 1. 왼쪽 탐색 창의 **Microsoft Purview** 포털에서 데이터 손실 방지**를 확장**하여 정책을** 선택합니다**.
 
@@ -137,7 +137,7 @@ DLP 정책을 성공적으로 활성화했습니다. 정책이 크레딧 카드 
 
 1. 여전히 클라이언트 1 VM(LON-CL1)에 lon-cl1\admin 계정으로 **로그인해야 하며, Joni Sherman**으로 **Microsoft 365에 로그인해야** 합니다.
 
-1. **Microsoft Edge**에는 Microsoft Purview 포털 탭이 계속 열려 있어야 합니다. 그렇다면 선택하고 다음 단계로 진행합니다. 닫았다면 새 탭에서 **https://compliance.microsoft.com**으로 이동합니다.
+1. **Microsoft Edge**에는 Microsoft Purview 포털 탭이 계속 열려 있어야 합니다. 그렇다면 선택하고 다음 단계로 진행합니다. 닫았다면 새 탭에서 **`https://compliance.microsoft.com`** 으로 이동합니다.
 
 1. Microsoft Purview 포털의 **왼쪽 탐색 창에서 데이터 손실 방지**를 확장**한 다음, 엔드포인트 DLP 설정** 선택합니다**.**
 
@@ -167,7 +167,7 @@ DLP 정책을 성공적으로 활성화했습니다. 정책이 크레딧 카드 
 
 1. 작업 표시줄에서 Edge 브라우저를 엽니다.
 
-1. **https://chrome.google.com**에서 Google Chrome 다운로드로 이동합니다.
+1. **`https://chrome.google.com`** 에서 Google Chrome 다운로드로 이동합니다.
 
 1. **Chrome 다운로드**를 선택하고 **다운로드** 및 **ChromeSetup.exe** 아래에서 **파일 열기**를 선택합니다.
 
@@ -175,13 +175,13 @@ DLP 정책을 성공적으로 활성화했습니다. 정책이 크레딧 카드 
 
 1. 설치가 완료되고 **Chrome 시작 페이지가 열리면 다음 위치에서 Chrome** 웹 스토어의 Microsoft Purview 확장으로 이동합니다.
 
-    https://chrome.google.com/webstore/detail/microsoft-purview-extensi/echcggldkblhodogklpincgchnpgcdco
+   ` https://chrome.google.com/webstore/detail/microsoft-purview-extensi/echcggldkblhodogklpincgchnpgcdco`
 
 1. **Microsoft Purview 확장**의 확장 페이지에 있는지 확인하고 **Chrome에 추가**를 선택합니다.
 
 1. **“Microsoft Purview 확장” 추가** 창에서 **확장 추가**를 선택합니다.
 
-1. 알림 창을 닫고 chrome://extensions** 이동합니다**.
+1. 알림 창을 닫고 **`chrome://extensions`**.
 
 1. **Microsoft Purview 확장**이 표시되고 활성화되어 있는지 확인합니다.
 

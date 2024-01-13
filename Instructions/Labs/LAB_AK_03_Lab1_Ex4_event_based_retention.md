@@ -14,7 +14,7 @@ lab:
 
 1. 여전히 클라이언트 1 VM(LON-CL1)에 lon-cl1\admin 계정으로 **로그인해야 하며, Joni Sherman** JoniS@WWLxZZZZZZ.onmicrosoft.com 으로 **Microsoft 365에 로그인해야 합니다(여기서 ZZZZZZ는 랩 호스팅 공급자가 제공하는 고유한 테넌트 ID임**).  Joni의 암호는 랩 호스팅 공급자가 제공해야 합니다.
 
-1. **Microsoft Edge**에서 **https://compliance.microsoft.com**으로 이동하고 Microsoft Purview 포털에 **Joni Sherman**으로 로그인합니다.
+1. **Microsoft Edge**에서 **`https://compliance.microsoft.com`** 으로 이동하고 Microsoft Purview 포털에 **Joni Sherman**으로 로그인합니다.
 
 1. Microsoft Purview 포털의 **왼쪽 탐색 창에서 데이터 수명 주기 관리를** 확장**한 다음, Microsoft 365**를 선택합니다**.**
 
@@ -61,7 +61,7 @@ lab:
 
 1. 여전히 클라이언트 1 VM(LON-CL1)에 lon-cl1\admin 계정으로 **로그인해야 하며, Joni Sherman**으로 **Microsoft 365에 로그인해야** 합니다.
 
-1. **Microsoft Edge**에는 Microsoft Purview 포털 탭이 계속 열려 있어야 합니다. 그렇다면 선택하고 다음 단계로 진행합니다. 닫았다면 새 탭에서 **https://compliance.microsoft.com**으로 이동합니다.
+1. **Microsoft Edge**에는 Microsoft Purview 포털 탭이 계속 열려 있어야 합니다. 그렇다면 선택하고 다음 단계로 진행합니다. 닫았다면 새 탭에서 **`https://compliance.microsoft.com`** 으로 이동합니다.
 
 1. Microsoft Purview 포털의 **왼쪽 탐색 창에서 데이터 수명 주기 관리를** 확장**한 다음, Microsoft 365**를 선택합니다**.**
 
@@ -105,7 +105,7 @@ Project Assets의 보존 레이블을 사용자에게 성공적으로 게시했�
 
 1. 여전히 클라이언트 1 VM(LON-CL1)에 lon-cl1\admin 계정으로 **로그인해야 하며, Joni Sherman**으로 **Microsoft 365에 로그인해야** 합니다.
 
-1. **Microsoft Edge**에는 Microsoft Purview 포털 탭이 계속 열려 있어야 합니다. 그렇다면 선택하고 다음 단계로 진행합니다. 닫았다면 새 탭에서 **https://compliance.microsoft.com**으로 이동합니다.
+1. **Microsoft Edge**에는 Microsoft Purview 포털 탭이 계속 열려 있어야 합니다. 그렇다면 선택하고 다음 단계로 진행합니다. 닫았다면 새 탭에서 **`https://compliance.microsoft.com`** 으로 이동합니다.
 
 1. 왼쪽 위 모서리에서 9개의 점을 선택하고 **앱** 아래에서 **SharePoint**를 선택합니다.
 
@@ -129,7 +129,7 @@ Project Assets의 보존 레이블을 사용자에게 성공적으로 게시했�
 
 1. 여전히 클라이언트 1 VM(LON-CL1)에 lon-cl1\admin 계정으로 **로그인해야 하며, Joni Sherman** JoniS@WWLxZZZZZZ.onmicrosoft.com 으로 **Microsoft 365에 로그인해야 합니다(여기서 ZZZZZZ는 랩 호스팅 공급자가 제공하는 고유한 테넌트 ID임**).  Joni의 암호는 랩 호스팅 공급자가 제공해야 합니다.
 
-1. **Microsoft Edge**에서 **https://compliance.microsoft.com**으로 이동하고 Microsoft Purview 포털에 **Joni Sherman**으로 로그인합니다.
+1. **Microsoft Edge**에서 **`https://compliance.microsoft.com`** 으로 이동하고 Microsoft Purview 포털에 **Joni Sherman**으로 로그인합니다.
 
 1. Microsoft Purview 포털의 **왼쪽 탐색 창에서 레코드 관리를** 선택한 **다음 이벤트** 탭을 **선택합니다.**
 
@@ -164,7 +164,7 @@ Project Assets의 보존 레이블을 사용자에게 성공적으로 게시했�
 
 1. 여전히 클라이언트 1 VM(LON-CL1)에 lon-cl1\admin 계정으로 **로그인해야 하며, Joni Sherman**으로 **Microsoft 365에 로그인해야** 합니다.
 
-1. **Microsoft Edge**에는 Microsoft Purview 포털 탭이 계속 열려 있어야 합니다. 그렇다면 선택하고 다음 단계로 진행합니다. 닫았다면 새 탭에서 **https://compliance.microsoft.com**으로 이동합니다.
+1. **Microsoft Edge**에는 Microsoft Purview 포털 탭이 계속 열려 있어야 합니다. 그렇다면 선택하고 다음 단계로 진행합니다. 닫았다면 새 탭에서 **`https://compliance.microsoft.com`** 으로 이동합니다.
 
 1. 왼쪽 위 모서리에서 9개의 점을 선택하고 **앱** 아래에서 **SharePoint**를 선택합니다.
 

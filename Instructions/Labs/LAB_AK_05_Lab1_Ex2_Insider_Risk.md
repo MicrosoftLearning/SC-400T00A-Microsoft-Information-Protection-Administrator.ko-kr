@@ -16,7 +16,7 @@ Contoso Ltd의 규정 준수 관리 주체인 Joni Sherman입니다. 사용자�
 
 1. 클라이언트 1 VM(LON-CL1)에 lon-cl1\admin** 계정으로 **로그인합니다.
 
-1. Microsoft Edge에서 MOD 관리istrator로 Microsoft Purview 포털로 이동하여 **https://compliance.microsoft.com** 로그인합니다(여기서 ZZZZZZ는 랩 호스팅 공급자가 제공하는 고유한 테넌트 ID임). **admin@WWLxZZZZZZ.onmicrosoft.com**  관리 암호는 랩 호스팅 공급자가 제공해야 합니다.
+1. Microsoft Edge에서 MOD 관리istrator로 Microsoft Purview 포털로 이동하여 **`https://compliance.microsoft.com`** 로그인합니다(여기서 ZZZZZZ는 랩 호스팅 공급자가 제공하는 고유한 테넌트 ID임). **admin@WWLxZZZZZZ.onmicrosoft.com**  관리 암호는 랩 호스팅 공급자가 제공해야 합니다.
 
 1. 역할 및 범위**로 **이동한 다음 드롭다운에서 사용 권한을** 선택합니다**.
 
@@ -44,7 +44,7 @@ Joni Sherman에 참가자 위험 관리 역할을 성공적으로 할당하여 M
 
 이 작업에서는 Microsoft Purview 포털에서 참가자 위험 관리 설정을 사용자 지정합니다. 이를 통해 Joni Sherman은 조직 내에서 잠재적인 내부자 위험을 효과적으로 관리하고 중요한 정보의 보안을 보장할 수 있습니다.
 
-1. **Microsoft Edge**에서 **https://compliance.microsoft.com**으로 이동한 다음, Microsoft Purview 포털에 JoniS@WWLxZZZZZZ.onmicrosoft.com으로 로그인합니다(ZZZZZZ는 랩 호스팅 공급자가 제공한 고유 테넌트 ID임).
+1. **Microsoft Edge**에서 **`https://compliance.microsoft.com`** 으로 이동한 다음, Microsoft Purview 포털에 JoniS@WWLxZZZZZZ.onmicrosoft.com으로 로그인합니다(ZZZZZZ는 랩 호스팅 공급자가 제공한 고유 테넌트 ID임).
 
 1. 왼쪽 탐색 모음에서 내부 위험 관리를** 선택합니다**.
 

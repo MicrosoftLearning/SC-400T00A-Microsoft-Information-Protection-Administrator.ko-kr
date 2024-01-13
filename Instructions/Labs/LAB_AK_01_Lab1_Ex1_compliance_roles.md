@@ -5,7 +5,7 @@ lab:
 ---
 ## WWL 테넌트 - 사용 약관
 
-강사 주도 교육 제공의 일부로 테넌트를 제공하는 경우, 강사 주도 교육에서 실습 랩을 지원하기 위해 테넌트를 사용할 수 있습니다.
+강사 진행 교육 제공의 일부로 테넌트를 제공하는 경우, 강사 진행 교육에서 실습 랩을 지원하기 위해 테넌트를 사용할 수 있습니다.
 
 테넌트를 실습 랩 외부에서 공유하거나 사용해서는 안 됩니다. 이 과정에서 사용되는 테넌트는 평가판 테넌트이며 클래스가 종료된 후 사용하거나 액세스할 수 없으며 확장판에서도 사용할 수 없습니다.
 
@@ -21,7 +21,7 @@ Joni Sherman의 역할에서 Contoso Ltd.의 최근 고용된 규정 준수 관�
 
 1. 클라이언트 1 VM(LON-CL1)에 lon-cl1\admin** 계정으로 **로그인합니다. 랩 호스팅 공급자가 암호를 제공해야 합니다.
 
-1. Microsoft Edge를 열고 **, 주소 표시줄을 선택하고, MOD 관리istrator admin@WWLxZZZZZZ.onmicrosoft.com** 로 **Microsoft 365 관리 센터 이동하고https://admin.microsoft.com** **로그인합니다(여기서 ZZZZZZ는 랩 호스팅 공급자가 제공하는 고유한 테넌트 ID임).** 관리 암호는 랩 호스팅 공급자가 제공해야 합니다.
+1. Microsoft Edge를 열고 **, 주소 표시줄을 선택하고, MOD 관리istrator admin@WWLxZZZZZZ.onmicrosoft.com** 로 **Microsoft 365 관리 센터 이동하고`https://admin.microsoft.com`** **로그인합니다(여기서 ZZZZZZ는 랩 호스팅 공급자가 제공하는 고유한 테넌트 ID임).** 관리 암호는 랩 호스팅 공급자가 제공해야 합니다.
 
 1. 로그인 상태 **유지 대화 상자**에서** 다시** 표시 안 함 검사 상자를 선택한 다음[ 아니요 **]를 선택합니다**.
 
@@ -51,7 +51,7 @@ Joni Sherman의 역할에서 Contoso Ltd.의 최근 고용된 규정 준수 관�
 
 1. 활성 사용자** 목록으로 돌아가**려면 오른쪽 위에 X**가 **있는 Joni Sherman의 계정이 표시된 플라이아웃 페이지를 닫습니다.
 
-1. Joni Sherman으로 전환하기 전에 MOD 관리자의 전역 관리자 권한을 사용하여 https://compliance.microsoft.com/auditlogsearch로 이동하여 감사 로깅을 활성화합니다.
+1. Joni Sherman으로 전환하기 전에 MOD 관리자의 전역 관리자 권한을 사용하여 `https://compliance.microsoft.com/auditlogsearch`로 이동하여 감사 로깅을 활성화합니다.
 
 1. **감사** 페이지에서. **사용자 및 관리자 활동 기록 시작**을 선택하여 감사 로깅을 활성화합니다.
 
@@ -67,13 +67,13 @@ Joni Sherman의 역할에서 Contoso Ltd.의 최근 고용된 규정 준수 관�
 
 1. 여전히 클라이언트 1 VM(LON-CL1)에 lon-cl1\admin** 계정으로 **로그인해야 합니다.
 
-1. **Microsoft Edge**에서 **https://compliance.microsoft.com**으로 이동합니다.
+1. **Microsoft Edge**에서 **`https://compliance.microsoft.com`** 으로 이동합니다.
 
 1. **계정** 선택 창이 표시되면 다른 계정** 사용을 선택합니다**.
 
 1. **로그인** 창이 표시되면 JoniS@WWLxZZZZZZ.onmicrosoft.com으로 로그인합니다(여기서 ZZZZZZ는 랩 호스팅 공급자가 제공한 고유 테넌트 ID임).  Joni의 암호는 랩 호스팅 공급자가 제공해야 합니다.
 
-1. **준수 상태** 개선 메시지 창이 열리면 텍스트를 읽고 다음**을 두 번 선택한 **다음 완료**를 선택합니다**. 
+1. **준수 상태** 개선 메시지 창이 열리면 텍스트를 읽고 다음**을 두 번 선택한 **다음 완료**를 선택합니다**.
 
 1. **Microsoft Purview 규정 준수 포털 시작** 페이지가 표시됩니다. 대시보드 타일 및 왼쪽 탐색 창을 조사합니다.
 

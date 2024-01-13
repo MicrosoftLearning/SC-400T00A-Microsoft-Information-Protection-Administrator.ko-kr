@@ -14,7 +14,7 @@ lab:
 
 1. 여전히 클라이언트 1 VM(LON-CL1)에 lon-cl1\admin 계정으로 **로그인해야 하며, Joni Sherman**으로 **Microsoft 365에 로그인해야** 합니다.
 
-1. **Microsoft Edge**에는 Microsoft Purview 포털 탭이 계속 열려 있어야 합니다. 그렇다면 선택하고 다음 단계로 진행합니다. 닫았다면 새 탭에서 **https://compliance.microsoft.com/** 으로 이동합니다.
+1. **Microsoft Edge**에는 Microsoft Purview 포털 탭이 계속 열려 있어야 합니다. 그렇다면 선택하고 다음 단계로 진행합니다. 닫았다면 새 탭에서 **`https://compliance.microsoft.com/`** 으로 이동합니다.
 
 1. **Microsoft Purview** 포털의 왼쪽 탐색 창에서 **레코드 관리**를 선택합니다.
 
@@ -58,7 +58,7 @@ lab:
 
 1. 여전히 클라이언트 1 VM(LON-CL1)에 lon-cl1\admin 계정으로 **로그인해야 하며, Joni Sherman**으로 **Microsoft 365에 로그인해야** 합니다.
 
-1. **Microsoft Edge**에는 Microsoft Purview 포털 탭이 계속 열려 있어야 합니다. 그렇다면 선택하고 다음 단계로 진행합니다. 닫았다면 새 탭에서 **https://compliance.microsoft.com/** 으로 이동합니다.
+1. **Microsoft Edge**에는 Microsoft Purview 포털 탭이 계속 열려 있어야 합니다. 그렇다면 선택하고 다음 단계로 진행합니다. 닫았다면 새 탭에서 **`https://compliance.microsoft.com/`** 으로 이동합니다.
 
 1. **Microsoft Purview** 포털의 왼쪽 탐색 창에서 **레코드 관리**를 선택합니다.
 
@@ -91,7 +91,7 @@ lab:
 
 1. 클라이언트 1 VM(LON-CL1)에 lon-cl1\admin** 계정으로 **로그인합니다.
 
-1. Microsoft Edge에서 **https://outlook.office.com**으로 이동합니다. 필요한 경우 메건 보웬**으로 **로그인합니다.
+1. Microsoft Edge에서 **`https://outlook.office.com`** 으로 이동합니다. 필요한 경우 메건 보웬**으로 **로그인합니다.
 
 1. Outlook Web에서 **받은 편지함**을 선택합니다.
 

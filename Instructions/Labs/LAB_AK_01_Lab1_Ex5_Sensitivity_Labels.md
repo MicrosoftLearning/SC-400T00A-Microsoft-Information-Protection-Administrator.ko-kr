@@ -84,7 +84,7 @@ Teams 및 SharePoint 사이트에서 민감도 레이블에 대한 지원을 사
 
 1. 여전히 클라이언트 1 VM(LON-CL1)에 lon-cl1\admin** 계정으로 **로그인해야 합니다.
 
-1. **Microsoft Edge**에서 **https://compliance.microsoft.com**으로 이동한 다음, Microsoft Purview 포털에 **Joni Sherman** JoniS@WWLxZZZZZZ.onmicrosoft.com으로 로그인합니다(ZZZZZZ는 랩 호스팅 공급자가 제공한 고유 테넌트 ID임).  Joni의 암호는 랩 호스팅 공급자가 제공해야 합니다.
+1. **Microsoft Edge**에서 **`https://compliance.microsoft.com`** 으로 이동한 다음, Microsoft Purview 포털에 **Joni Sherman** JoniS@WWLxZZZZZZ.onmicrosoft.com으로 로그인합니다(ZZZZZZ는 랩 호스팅 공급자가 제공한 고유 테넌트 ID임).  Joni의 암호는 랩 호스팅 공급자가 제공해야 합니다.
 
 1. Microsoft Purview 포털의 왼쪽 탐색 창에서 정보 보호를** 확장**한 다음 레이블을** 선택합니다**.
 
@@ -177,7 +177,7 @@ Teams 및 SharePoint 사이트에서 민감도 레이블에 대한 지원을 사
 
 1. 여전히 클라이언트 1 VM(LON-CL1)에 lon-cl1\admin 계정으로 **로그인해야 하며, Joni Sherman**으로 **Microsoft 365에 로그인해야** 합니다.  JoniS@WWLxZZZZZZ.onmicrosoft.com으로 로그인합니다(여기서 ZZZZZZ는 랩 호스팅 공급자가 제공한 고유 테넌트 ID입니다).  Joni의 암호는 랩 호스팅 공급자가 제공해야 합니다.
 
-1. **Microsoft Edge**에는 Microsoft Purview 포털 탭이 계속 열려 있어야 합니다. 그렇다면 선택하고 다음 단계로 진행합니다. 닫았다면 새 탭에서 **https://compliance.microsoft.com**으로 이동합니다.
+1. **Microsoft Edge**에는 Microsoft Purview 포털 탭이 계속 열려 있어야 합니다. 그렇다면 선택하고 다음 단계로 진행합니다. 닫았다면 새 탭에서 **`https://compliance.microsoft.com`** 으로 이동합니다.
 
 1. Microsoft Purview 포털의 왼쪽 탐색 창에서 정보 보호를** 확장**한 다음 레이블을** 선택합니다**.
 
@@ -288,7 +288,7 @@ Teams 및 SharePoint 사이트에서 민감도 레이블에 대한 지원을 사
 
 1. 여전히 클라이언트 1 VM(LON-CL1)에 lon-cl1\admin** 계정으로 **로그인해야 합니다.
 
-1. **Microsoft Edge**에서 **https://compliance.microsoft.com**으로 이동하고 Microsoft Purview 포털에 **Joni Sherman**으로 로그인합니다.
+1. **Microsoft Edge**에서 **`https://compliance.microsoft.com`** 으로 이동하고 Microsoft Purview 포털에 **Joni Sherman**으로 로그인합니다.
 
 1. Microsoft Purview 포털의 왼쪽 탐색 창에서 정보 보호를** 확장**한 다음 레이블을** 선택합니다**.
 
