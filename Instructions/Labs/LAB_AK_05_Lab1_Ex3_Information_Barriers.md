@@ -54,7 +54,7 @@ Contoso Ltd.의 규정 준수 관리 주체인 Joni는 Microsoft 365에서 Infor
     Start-Process  "https://login.microsoftonline.com/common/adminconsent?client_id=$appId"
     ````
 
-    >**참고:** ZZZZZZ를 업데이트해야 합니다. ZZZZZZ는 랩 호스팅 공급자가 제공하는 고유한 테넌트 ID입니다.
+    >**참고:** ZZZZZZ를 ZZZZZZ.onmicrosoft.com 업데이트해야 합니다. ZZZZZZ는 랩 호스팅 공급자가 제공하는 고유한 테넌트 ID입니다. 테넌트 ID에는 정규화된 do기본 이름이 필요합니다.
 
 1. 메시지가 표시되면 MOD 관리istrator 계정으로 로그인합니다.
 
