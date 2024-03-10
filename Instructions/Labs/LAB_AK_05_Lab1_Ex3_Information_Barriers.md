@@ -47,7 +47,7 @@ Contoso Ltd.의 규정 준수 관리 주체인 Joni는 Microsoft 365에서 Infor
 1. 다음 PowerShell cmdlet을 실행합니다.
 
     ````powershell
-    Connect-AzureAD -Tenant "WWLxZZZZZZ"
+    Connect-AzureAD -Tenant "WWLxZZZZZZ.onmicrosoft.com"
     $appId="bcf62038-e005-436d-b970-2a472f8c1982" 
     $sp=Get-AzureADServicePrincipal -Filter "appid eq '$($appid)'"
     if ($sp -eq $null) { New-AzureADServicePrincipal -AppId $appId }

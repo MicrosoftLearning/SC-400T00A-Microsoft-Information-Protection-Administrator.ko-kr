@@ -42,9 +42,9 @@ lab:
 
 1. 다운로드 대화 상자에서 저장을 선택한 **다음 폴더 열기**를 선택합니다**.**
 
-1. LON-CL1의 바탕 화면에** Zip 파일을 **추출합니다. DeviceComplianceLocalOnboardingScript.cmd**라는 **스크립트가 표시됩니다.
+1. LON-CL1의 바탕 화면에** Zip 파일을 **추출합니다. DeviceComplianceLocalOnboardingScript.cmd** 스크립트**가 표시됩니다.
 
-1. 바탕 화면에서 방금 추출한 DeviceComplianceLocalOnboardingScript.cmd** 파일을 마우스 오른쪽 단추로 클릭하고 **관리자** 권한으로 실행을 선택합니다**.  더 많은 정보를 선택한 **다음 실행을 선택하면 **Windows SmartScreen 경고 상자가 발생할 수 있습니다**.**  사용자 계정 컨트롤 창이 있는 경우 이 모든 스크립트에 대해 예를** 선택하여 **PC를 변경합니다.
+1. 바탕 화면에서 방금 추출한 **DeviceComplianceLocalOnboardingScript.cmd 파일을 마우스 오른쪽 단추**로 클릭하고 관리자** 권한으로 실행을 선택합니다**.  더 많은 정보를 선택한 **다음 실행을 선택하면 **Windows SmartScreen 경고 상자가 발생할 수 있습니다**.**  사용자 계정 컨트롤 창이 있는 경우 이 모든 스크립트에 대해 예를** 선택하여 **PC를 변경합니다.
 
 1. **명령 프롬프트** 화면에서 Y**를 입력**하여 확인한 다음 Enter 키를 누릅니다.
 
@@ -139,7 +139,9 @@ DLP 정책을 성공적으로 활성화했습니다. 정책이 크레딧 카드 
 
 1. **Microsoft Edge**에는 Microsoft Purview 포털 탭이 계속 열려 있어야 합니다. 그렇다면 선택하고 다음 단계로 진행합니다. 닫았다면 새 탭에서 **`https://compliance.microsoft.com`** 으로 이동합니다.
 
-1. Microsoft Purview 포털의 **왼쪽 탐색 창에서 데이터 손실 방지**를 확장**한 다음, 엔드포인트 DLP 설정** 선택합니다**.**
+1. Microsoft Purview 포털의 **왼쪽 탐색 창에서 데이터 손실 방지**를 확장**한 다음 개요**를 선택합니다**.**
+
+1. 개요 페이지의 오른쪽 위에서 데이터 손실 방지 설정을** 선택합니다**.
 
 1. **엔드포인트 DLP 설정** 페이지에서 Windows**에 대한 파일 경로 제외를 확장**한 다음+ 파일 경로 제외** 추가를 선택합니다**.
 
