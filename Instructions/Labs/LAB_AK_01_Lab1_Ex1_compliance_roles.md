@@ -55,7 +55,7 @@ Joni Sherman의 역할에서 Contoso Ltd.의 최근 고용된 규정 준수 관�
 
 1. **감사** 페이지에서. **사용자 및 관리자 활동 기록 시작**을 선택하여 감사 로깅을 활성화합니다.
 
-1. 오른쪽 위에 MA**가 있는 원**을 선택하고 로그아웃**을 선택합니다**.
+1. 오른쪽 위에 있는 Mod 관리istrator 프로필 사진을 선택한 다음 로그아웃**을 선택합니다**. 사진은 작은 메가폰처럼 보입니다. ![Mod 관리istrator 프로필 이미지](../Media/ModAdministratorAvatar.png)
 
 1. **Microsoft Edge** 브라우저 창을 닫습니다.
 
