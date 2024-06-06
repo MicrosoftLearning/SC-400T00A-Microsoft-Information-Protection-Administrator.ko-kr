@@ -1,8 +1,8 @@
-# SC-400T00: Microsoft Information Protection 관리istrator
+# SC-400T00: Microsoft Information Protection 관리자 시험의 내용에 해당됩니다.
 
-이 리포지토리에는 다음 과정에 대한 랩 지침이 포함되어 있습니다.
+이 리포지토리에는 다음 과정용 랩 지침이 포함되어 있습니다.
 
-- SC-400T00: Microsoft Information Protection 관리istrator
+- SC-400T00: Microsoft Information Protection 관리자 시험의 내용에 해당됩니다.
  
 
 <!-- **[Download Latest Student Handbook and AllFiles Content](../../releases/latest)** -->
@@ -11,9 +11,9 @@
 
 **랩 지침을 수동으로 빌드해야 하나요?** - 지침은 [MicrosoftLearning/Docker-Build](https://github.com/MicrosoftLearning/Docker-Build) 리포지토리에서 확인할 수 있습니다.
 
-## Microsoft의 역할
+## 우리가 하는 일
 
-- 이 과정을 지원하려면 강좌에서 사용되는 Azure 및 Microsoft 365 서비스를 최신 상태로 유지하기 위해 코스 콘텐츠를 자주 업데이트해야 합니다.  과정 작성자와 MCT 사이의 개방된 기여를 통해 Azure 플랫폼의 변경 내용을 적용하여 콘텐츠를 최신 상태로 유지할 수 있도록, 랩 지침과 랩 파일을 GitHub에 게시합니다.
+- Microsoft는 이 과정을 지원하기 위해 과정 내에서 사용되는 Azure 및 Microsoft 365 서비스 관련 최신 정보를 반영하여 과정 콘텐츠를 자주 업데이트해야 합니다.  과정 작성자와 MCT 사이의 개방된 기여를 통해 Azure 플랫폼의 변경 내용을 적용하여 콘텐츠를 최신 상태로 유지할 수 있도록, 랩 지침과 랩 파일을 GitHub에 게시합니다.
 
 - 이를 통해 이전에 경험하지 못한 방식으로 랩에 대한 협업을 경험하기 바랍니다. Azure가 변경하고 실시간 제공 중에 이를 먼저 발견하면 랩 소스에서 바로 개선 작업을 진행합니다.  동료 MCT를 도와주세요.
 
@@ -23,7 +23,7 @@
 
 <!-- - These files on GitHub are designed to be used in conjunction with the student handbook, but are in GitHub as a central repository so MCTs and course authors can have a shared source for the latest lab files. -->
 
-- 모든 배달에 대해 트레이너는 최신 Azure 또는 Microsoft 365 서비스를 지원하기 위해 변경된 내용에 대해 GitHub를 검사 최신 파일을 가져오는 것이 좋습니다.
+- 트레이너는 각 강의를 제공할 때마다 GitHub에서 최신 Azure 또는 Microsoft 365 서비스를 지원하기 위해 변경된 내용을 확인하고 최신 파일을 가져와서 강의에 사용하는 것이 좋습니다.
 
 <!--
 ## What about changes to the student handbook?
