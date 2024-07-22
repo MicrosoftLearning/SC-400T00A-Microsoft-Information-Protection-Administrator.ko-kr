@@ -162,119 +162,119 @@ Teams 위치용 보존 정책을 만들었습니다. 그리고 모든 Teams 채�
 
 PowerShell을 통해 보존 기간이 3년인 보존 정책을 만들었습니다.
 
-<!-- ## Task 4 – Create Retention Policy with adaptive scope
+## 작업 4 – 적응형 범위를 사용하여 보존 정책 만들기
 
-In this exercise you will create a retention policy for the finance and legal department. The purpose of the policy is to comply with the law, retaining all legal related documents for 5 years. First you will create an adaptive scope including the legal and the retail department, then you will create a retention policy using this scope.
+이 연습에서는 재무 및 법률 부서에 대한 보존 정책을 만듭니다. 이 정책의 목적은 법률을 준수하여 5년 동안 모든 법적 관련 문서를 보존하는 것입니다. 먼저 법률 및 소매 부서를 포함한 적응형 범위를 만든 다음, 이 범위를 사용하여 보존 정책을 만듭니다.
 
-1. You should still be logged into Client 1 VM (LON-CL1) as the **lon-cl1\admin** account, and you should be logged into Microsoft 365 as **Joni Sherman**.
+1. 클라이언트 1 VM(LON-CL1)에는 **lon-cl1\admin** 계정으로, Microsoft 365에는 **Joni Sherman**으로 로그인되어 있는 상태여야 합니다.
 
-1. In **Microsoft Edge**, the Microsoft Purview portal tab should still be open. If so, select it and proceed to the next step. If you closed it, then in a new tab, navigate to **`https://compliance.microsoft.com`**.
+1. **Microsoft Edge**에는 Microsoft Purview 포털 탭이 계속 열려 있어야 합니다. 해당 탭이 열려 있으면 탭을 선택하고 다음 단계를 진행합니다. 닫았다면 새 탭에서 **`https://compliance.microsoft.com`** 으로 이동합니다.
 
-1. In the **Microsoft Purview** portal on the left navigation pane expand **Roles & scopes** then select **Adaptive scopes**.
+1. 왼쪽 탐색 창의 **Microsoft Purview** 포털에서 **역할 및 범위**를 확장한 다음, **적응형 범위**를 선택합니다.
 
-1. On the **Adaptive scopes** page select **+ Create scope**.
+1. **적응형 범위** 페이지에서 **+ 범위 만들기**를 선택합니다.
 
-1. On the **Name your adaptive policy scope** page input:
+1. **적응형 정책 범위의 이름 지정** 페이지에 다음을 입력합니다.
 
-    - **Name**: Legal Documents Retention
-    - **Description**: Retention for legal related documents
+    - **이름**: 법적 문서 보존
+    - **설명**: 법적 관련 문서에 대한 보존
 
-1. Select **Next**.
+1. **다음**을 선택합니다.
 
-1. On the **Assign admin unit** page select **Next**.
+1. **관리 단위 할당** 페이지에서 **다음**을 선택합니다.
 
-1. On the **What type of scope do you want to create?** page select **Users** then select **Next**.
+1. **만들려는 범위 유형은 무엇인가요?** 페이지에서 **사용자**를 선택한 **다음**을 선택합니다.
 
-1. On the **Create the query to define users** page, under **User attributes** select the drop-down menu for **Attribute** then select **Department**.
+1. **사용자 정의 쿼리 만들기** 페이지의 **사용자 특성** 아래에서 **특성**에 대한 드롭다운 메뉴를 선택하고 **부서**를 선택합니다.
 
-1. Directly next to the attribute field select **is equal to** as the operator.
+1. 특성 필드 바로 옆에서 연산자로 **다음과 같음**을 선택합니다.
 
-1. Input **Legal** in the **Value** field.
+1. **값** 필드에 **법적 사항**을 입력합니다.
 
-1. To add a second attribute, select **+ Add attribute** on the **Create the query to define users** page.
+1. 두 번째 특성을 추가하려면 **사용자 정의 쿼리 만들기** 페이지에서 **+ 특성 추가**를 선택합니다.
 
-1. For the **Query operator**, **Attribute**, **Operator**, and **Value** input:
+1. **쿼리 연산자**, **특성**, **연산자**, **값**에 다음을 입력합니다.
 
-   - **Query operator**: Or
-   - **Attribute**: Department
-   - **Operator**: is equal to
-   - **Value**: Retail
+   - **쿼리 연산자**: Or
+   - **특성**: 부서
+   - **연산자**: 다음과 같음
+   - **값**: 소매
 
-1. Ensure the checkboxes are selected next to each attribute then select **Next**.
+1. 각 특성 옆에 확인란이 선택되어 있는지 확인한 **다음**을 선택합니다.
 
-1. On the **Review and finish** page select **Submit**.
+1. **검토 후 완료** 페이지에서 **제출**을 선택합니다.
 
-1. On the **Your scope was created page** select **Done**.
+1. **범위가 만들어짐 페이지**에서 **완료**를 선택합니다.
 
-1. In the **Microsoft Purview** portal, in the left navigation pane, expand **Data lifecycle management** then select **Microsoft 365**.
+1. **Microsoft Purview** 포털의 왼쪽 탐색 창에서 **데이터 수명 주기 관리**를 확장한 다음 **Microsoft 365**를 선택합니다.
 
-1. On the **Data lifecycle management** page select the **Retention policies** tab then select **+ New retention policy**.
+1. **데이터 수명 주기 관리** 페이지에서 **보존 정책** 탭을 선택하고 **+ 새 보존 정책**을 선택합니다.
 
-1. On the **Name your retention policy** page input:
+1. **보존 정책 이름 지정** 페이지에서 다음을 입력합니다.
 
-    - **Name**: Legal Data Retention
-    - **Description**: Retention of all documents within the legal and retail departments.
+    - **이름**: 법적 데이터 보존
+    - **설명**: 법률 및 소매 부서 내의 모든 문서를 보존합니다.
 
-1. Select **Next**.
+1. **다음**을 선택합니다.
 
-1. On the **Policy Scope** page select **Next**.
+1. **정책 범위** 페이지에서 **다음**을 선택합니다.
 
-1. On the **Choose the type of retention policy to create** page select **Adaptive** then select **Next**.
+1. **만들 보존 정책 유형 선택** 페이지에서 **적응형**을 선택한 후 **다음**을 선택합니다.
 
-1. On the **Choose adaptive policy scopes and locations** page select **+ Add scopes**.
+1. **적응형 정책 범위 및 위치 선택** 페이지에서 **+ 범위 추가**를 선택합니다.
 
-1. In the right flyout **Choose adaptive policy scopes** page select the checkbox for **Legal Documents Retention** then select the **Add** button.
+1. 오른쪽 플라이아웃의 **적응형 정책 범위 선택** 페이지에서 **법적 문서 보존** 체크박스를 선택한 다음, **추가** 단추를 선택합니다.
 
-1. Back on the **Choose locations to apply the policy** enable:
+1. 다시 **정책을 적용할 위치 선택** 페이지에서 다음을 활성화합니다.
 
-    - **Exchange mailboxes**
-    - **OneDrive accounts**
-    - Leave all other locations disabled.
+    - **Exchange 사서함**
+    - **OneDrive 계정**
+    - 다른 모든 위치를 사용하지 않도록 설정합니다.
 
-1. Select **Next**.
+1. **다음**을 선택합니다.
 
-1. On the **Decide if you want to retain content, delete it, or both** page, for the **Retain items for a specific period** section input:
+1. **콘텐츠를 보존할지, 삭제할지, 아니면 둘 다 수행할지 여부를 결정** 페이지의 **특정 기간 동안 항목 보존** 섹션에서 다음을 입력합니다.
 
-    - **Retain items for a specific period**: 5 years
-    - **Start the retention period based on**: When items were created
-    - **At the end of the retention period**: Do nothing
+    - **특정 기간 동안 항목 보존**: 5년
+    - **보존 기간 시작 기준**: 항목 작성 시
+    - **보존 기간 종료 시**: 아무 작업도 하지 않음
 
-1. Select **Next**.
+1. **다음**을 선택합니다.
 
-1. On the **Review and finish** page select **Submit**.
+1. **검토 후 완료** 페이지에서 **제출**을 선택합니다.
 
-1. Once your policy is created, select the **Done** button.
+1. 정책이 만들어지면 **완료** 단추를 선택합니다.
 
-1. On the **You successfully created a retention policy** page select **Done**.
+1. **보존 정책을 성공적으로 만들었습니다** 페이지에서 **완료**를 선택합니다.
 
-You have successfully applied an adaptive scope to a retention policy.
+보존 정책에 적응형 범위를 적용했습니다.
 
-## Task 5 – Test adaptive scope policy
+## 작업 5 – 적응형 범위 정책 테스트
 
-In this exercise you will verify the users affected by the adaptive scope and test the new adaptive retention policy.
+이 연습에서는 적응형 범위의 영향을 받는 사용자를 확인하고 새 적응형 보존 정책을 테스트합니다.
 
->**Note**: When you create and submit a retention policy, it can take up to seven days for the retention policy to be applied.
+>**참고**: 보존 정책을 만들고 제출할 때 보존 정책을 적용하는 데 최대 7일이 걸릴 수 있습니다.
 
-1. To review the details of the adaptive scope retention policy, logged into  **lon-cl1\admin**, open a PowerShell window by selecting the Windows button with the right mouse button and then select Windows PowerShell.
+1. 적응형 범위 보존 정책의 세부 정보를 검토하려면 **lon-cl1\admin**으로 로그인되어 있는 상태에서 마우스 오른쪽 단추로 Windows 단추를 선택하여 PowerShell 창을 연 다음, Windows PowerShell을 선택합니다.
 
-1. Connect to the Security & Compliance Center in your tenant with the following cmdlet:
+1. 다음 cmdlet을 사용하여 테넌트에서 보안 및 준수 센터에 연결합니다.
 
     ```powershell
     Connect-IPPSSession
     ```
 
-1. If prompted with a sign in dialog box, sign in with Joni Sherman's account,  JoniS@WWLxZZZZZZ.onmicrosoft.com (where ZZZZZZ is your unique tenant ID provided by your lab hosting provider). Admin's password should be provided by your lab hosting provider.
+1. 로그인 대화 상자가 표시되면 Joni Sherman의 계정으로 로그인합니다. 로그인 ID로는 JoniS@WWLxZZZZZZ.onmicrosoft.com을 사용합니다(여기서 ZZZZZZ는 랩 호스팅 공급자가 제공한 고유 테넌트 ID임). 관리자의 암호는 랩 호스팅 공급자가 제공합니다.
 
-1. Run the following cmdlet to view all details of the adaptive scope policy:
+1. 적응형 범위 정책의 모든 세부 정보를 보려면 다음 cmdlet을 실행합니다.
 
     ```powershell
     Get-RetentionCompliancePolicy -Identity "Legal Data Retention"     -DistributionDetail | Format-List
     ```
 
-1. Review the details. Certain parameters should have following statuses:
+1. 세부 정보를 검토합니다. 특정 매개 변수의 상태는 다음과 같습니다.
 
     - **Enabled**: True
-    - **Mode**: Enforce
-    - **DistributionStatus**: Success
+    - **Mode**: 적용
+    - **DistributionStatus**: 성공
 
-You have verified the success of your adaptive scope.-->
+적응형 범위의 성공 여부를 확인했습니다.
