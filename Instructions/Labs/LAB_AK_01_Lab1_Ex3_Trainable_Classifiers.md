@@ -6,13 +6,15 @@ lab:
 
 # 랩 1 - 연습 3 - 학습 가능한 분류자 관리
 
-Contoso Ltd.는 '영업 및 마케팅' SharePoint 사이트에 저장된 재무 문서 및 보고서가 제대로 분류되었는지 확인해야 합니다. 이렇게 하려면 이러한 파일을 인식하고 레이블을 지정하는 학습 가능한 분류자를 만들어야 합니다.
+Contoso Ltd.는 고급 드론 기술에 중점을 둔 Mark8 프로젝트의 연구 개발(R&D)에 참여하고 있습니다. 회사는 이 프로젝트와 관련된 민감한 정보를 적절히 분류하여 무단 액세스 또는 공유로부터 보호해야 합니다. 이 랩에서는 Mark8 프로젝트와 연결된 문서를 식별하고 레이블을 지정하도록 설계된 학습 가능한 분류자를 만듭니다. 현재 데이터 세트의 제한 사항으로 인해 Contoso는 분류자를 완전히 학습시킬 수 있는 관련 문서의 예제가 충분하지 않을 수 있습니다. 이 연습에서는 분류자 정확도를 개선하기 위해 다양하고 포괄적인 데이터 샘플을 갖는 것의 중요성을 강조합니다.
+
+>[!알림] 이 학습 테넌트에서 사용할 수 있는 제한된 데이터로 인해 이 랩의 학습 가능한 분류자 생성 프로세스는 성공적인 분류 결과를 얻지 못합니다. 이 연습은 학습 가능한 분류자를 구성하는 상호 작용 환경을 제공하여 설정 및 검토 프로세스를 탐색할 수 있도록 설계되었습니다. 분류자는 예상대로 데이터를 완전히 학습시키고 분류하지는 않지만, 연습에서는 워크플로에 대한 인사이트와 효과적인 분류자 학습에 필요한 고려 사항을 제공합니다. 
 
 ## 작업 1 – 학습 가능한 분류자 만들기
 
-이 작업에서는 테넌트에서 학습 가능한 분류자를 활성화하여 사용자 지정 분류자를 만들 수 있습니다.
+이 작업에서는 Contoso Ltd. 내에서 Mark8 프로젝트와 관련된 중요한 문서를 식별하고 보호하도록 학습 가능한 분류자를 설정합니다.
 
-1. 클라이언트 1 VM(LON-CL1)에는 여전히 **LON-CL1\admin** 계정으로 그리고 Microsoft 365에는 **Joni Sherman**으로 로그인되어 있는 상태여야 합니다.
+1. 클라이언트 1 VM(LON-CL1)에는 여전히 **LON-CL1\admin** 계정으로 로그인해야 하며, Microsoft 365에는 **Joni Sherman**으로 로그인되어 있는 상태여야 합니다.
 
 1. **Microsoft Edge**에서 **`https://compliance.microsoft.com`** 으로 이동합니다.
 
@@ -24,14 +26,14 @@ Contoso Ltd.는 '영업 및 마케팅' SharePoint 사이트에 저장된 재무 
 
 1. **학습 가능한 분류자 이름 지정 및 설명** 페이지에서 다음 정보를 입력합니다.
 
-    - **이름**: `Contoso Company Data`
-    - **설명**: `Trainable classifier for company data produced and stored by Contoso Ltd.`
+    - **이름**: `Mark8 Project Documents`
+    - **설명**: `Classifier for identifying sensitive documents related to the Mark8 drone project's research and development efforts.`
 
 1. **다음**을 선택합니다.
 
 1. **긍정적인 샘플 콘텐츠 출처**에서 **+ 사이트 선택**을 선택합니다.
 
-1. 오른쪽에 있는 **SharePoint 사이트 추가** 플라이아웃 페이지에서 다음 SharePoint 사이트를 선택합니다.
+1. 오른쪽에 있는 **SharePoint 사이트 추가** 플라이아웃 페이지에서 다음 SharePoint 사이트를 선택합니다.
 
     - Mark8ProjectTeam
 
@@ -53,76 +55,24 @@ Contoso Ltd.는 '영업 및 마케팅' SharePoint 사이트에 저장된 재무 
 
 선택한 SharePoint 사이트의 문서와 파일 분석이 진행됩니다. 이 분석에는 최대 48시간이 걸릴 수 있습니다.
 
-<!---
-## Task 3 – Publish a trainable classifier (optional lab task)
+## 작업 2 - 분류자 결과 검토
 
-After the new trainable classifier was created and the initial analysis of the documents and files is done, the manual training process needs to be performed. In this task, Joni will start the calibration of the classifier to achieve the required accuracy for publishing.
+Joni는 학습 가능한 분류자를 구성했음에도 불구하고 예상했던 결과가 나오지 않는다는 을 발견했습니다. 이 작업에서는 학습 가능한 분류자의 결과를 검토하여 의도한 콘텐츠를 성공적으로 분류하지 못한 이유를 파악하고 부족하거나 잘못 정렬된 학습 샘플과 같은 잠재적인 문제에 집중합니다.
 
-1. You should still be logged into your Client 1 VM (SC-400-CL1) as the **SC-400-CL1\admin** account, and you should be logged into Microsoft 365 as **Joni Sherman**.
+1. 포털의 **분류자** 페이지에서 계속 Microsoft Purview에 로그인되어 있어야 합니다. Microsoft 365에 **Joni Sherman**으로 로그인해야 합니다.
 
-1. In your browser window, you are in the Microsoft Purview portal at **Data classification** in the **Trainable classifiers** tab.
+1. **게시됨** 옆의 아래쪽 화살표를 선택하면 게시된 학습 가능한 분류자를 축소하여 학습 중인 분류자를 더 쉽게 식별할 수 있습니다.
 
-1. Select the trainable classifier with the name **Contoso Company Data** of the type **Custom** to open the detailed settings.
+1. **Mark8 프로젝트 문서**에는 교육이 완료될 때까지 **진행 중**이라는 상태가 표시됩니다.
 
-1. Review the **Details** tab on the right side, including the source site for the classifier, the number of processed items and the **Status**, which is in **Need test items**.
+1. 학습이 완료되면 분류자가 **학습 실패**로 업데이트됩니다.
 
-1. To add items for training the classifier, select **Add items to test** to open the right side selection pane.
+1. 이 분류자가 실패한 이유를 확인하려면 **새 창에서 열기** 화살표가 있는 창 아이콘을 선택하세요.
 
-1. In the **Choose sites with items to test** pane, select **+ Choose sites**.
+1. **Mark8 프로젝트 문서** 분류자 창에서 **개요** 및 **테스트 결과 검토** 탭을 검토하여 이 분류자가 실패한 이유를 이해합니다.
 
-1. Select the following SharePoint sites:
+1. 테스트 결과를 검토한 결과, 샘플 데이터에 **가양성**과 **가음성**이 다수 존재하는 것으로 나타났습니다.
 
-    - **Communication site**
-    - **News @ Contoso**
-    - **Contoso Web 1**
-    - **Brand**
-    - **Digital Initiative Public Relations**
-    - **Work @ Contoso**
-    - **Sales and Marketing**
-    - **Contoso Landings**
-    - **Mark 8 Project Team**
-    - **HR**
-    - **Operations**
-    - **Retail**
-    - **PointPublishing Hub Site**
-    - **Team Site**
-    - **Leadership Team**
-    - **Community**
-    - **Give @ Contoso**
-    - **Benefits @ Contoso**
-    - **Learn @ Contoso**
-    - **Campaigns - Events**
+1. 이 분류자를 제거하려면 **Mark8 프로젝트 문서** 페이지의 오른쪽 상단에 있는 **삭제** 버튼을 선택하세요.
 
-1. Select **Add**.
-
-1. Wait until the sites are shown in the list and select **Add**.
-
-1. When the **Overview** section is updated, a new tab is shown in the top of the window.
-
-1. Select **Tested items to review** from the top pane.
-
-1. It will take between 15 to 30 minutes until first results are ready for review. Refresh the browser window if no files are shown in the list, until data is available.
-
-1. Select the name of the first file from the list to open the preview window.
-
-1. When the **Prediction** row is equal to **Match**, the file was identified as a match for the classifier. Below the preview window, a message **We predict this item "matched" this classifier.** is shown. Select **Match** to approve the automatic classification.
-
-1. When the **Prediction** row is equal to **Not a match**, the file was identified not as a match for the classifier. Below the preview window, a message **We predict this item "does not match" this classifier.** is shown. Select **Not a match** to approve the automatic classification.
-
-1. Proceed with all items in the list and approve the automatic classification. After all items have been reviewed, select **Overview** from the top pane and **Tested items to review** again, to load the next set of items for review.
-
-1. For each 30 reviewed items an **Auto-retrain performed** window is shown. Select **OK** and proceed with the previous steps, until no items for review are left.
-
-1. After sufficient items are reviewed, the **Publish** button in the upper right gets available. Select it as soon it is available.
-
-1. In the **Publish classifier** window, select **Yes** to publish the classifier.
-
-1. When the right side pane with **Your trainable classifier has been published** is displayed, the trainable classifier was successfully published.
-
-1. Close the right side pane with the **X** in the upper right.
-
-1. Back at the main site, the custom classifier was moved to **Published** and the **Status** has been changed to **Ready to use**.
-
-1. Leave the browser window open.
-
-You have successfully created, trained, and published a custom trainable classifier that matches the files stored on the existing SharePoint sites of Contoso Ltd.
+이제 학습 가능한 분류자 결과의 검토를 완료했습니다. 이 프로세스에서는 성공적인 분류를 달성하기 위해 충분하고 올바르게 정렬된 학습 샘플의 중요성을 강조했습니다. 분류자의 실패 원인을 이해하면 향후 구성을 더 잘 준비하여 보다 정확하고 신뢰할 수 있는 데이터 분류를 보장할 수 있습니다.
