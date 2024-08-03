@@ -26,43 +26,7 @@ Contoso Ltd.의 규정 준수 관리자인 Joni는 Microsoft 365에서 정보 �
 
     >**참고:** 이 변경 내용이 적용되려면 몇 시간이 걸릴 수 있습니다.
 
-## 작업 2: Microsoft Teams에서 정보 장벽에 대한 관리자 동의 사용
-
-이 작업에서는 Microsoft Teams에서 IB(정보 장벽)에 대한 관리자 동의를 사용하도록 설정합니다. 이 구성은 Teams 채널과 같은 그룹에서 IB를 준수하지 않는 사용자를 제거할 수 있도록 하여 규정 준수를 보장합니다.
-
-1. 관리자 권한 PowerShell 창을 엽니다. 이렇게 하려면 마우스 오른쪽 단추로 Windows 단추를 선택한 다음, **Windows PowerShell(관리자)** 을 선택합니다.
-
-1. **사용자 계정 컨트롤** 창에서 **예**를 선택하여 실행을 확인합니다.
-
-1. 다음 cmdlet을 입력하여 최신 버전의 Azure AD 모듈을 설치합니다.
-
-    ```powershell
-    Install-Module AzureAD
-    ```
-
-1. NuGet 공급자 보안 대화 상자에서 Yes에 해당하는 **Y** 키를 눌러 확인하고 **Enter** 키를 누릅니다. 이 프로세스가 완료될 때까지 몇 초 정도 걸릴 수 있습니다.
-
-1. 신뢰할 수 없는 리포지토리 보안 대화 상자가 표시되면 Yes에 해당하는 **Y** 키를 누르고 **Enter** 키를 누릅니다.  이 프로세스가 완료될 때까지 몇 초 정도 걸릴 수 있습니다.
-
-1. 다음 PowerShell cmdlet을 실행합니다.
-
-    ````powershell
-    Connect-AzureAD -Tenant "WWLxZZZZZZ.onmicrosoft.com"
-    $appId="bcf62038-e005-436d-b970-2a472f8c1982" 
-    $sp=Get-AzureADServicePrincipal -Filter "appid eq '$($appid)'"
-    if ($sp -eq $null) { New-AzureADServicePrincipal -AppId $appId }
-    Start-Process  "https://login.microsoftonline.com/common/adminconsent?client_id=$appId"
-    ````
-
-    >**참고:** ZZZZZZ를 ZZZZZZ.onmicrosoft.com으로 업데이트해야 합니다. ZZZZZZ는 랩 호스팅 공급자가 제공한 고유 테넌트 ID입니다. 테넌트 ID에는 정규화된 도메인 이름이 필요합니다.
-
-1. 메시지가 표시되면 MOD 관리자 계정으로 로그인합니다.
-
-1. **사용 권한 요청됨** 대화 상자에서 정보를 검토한 다음 **동의**를 선택합니다.
-
-Azure AD 모듈을 성공적으로 설치하고, 필요한 권한을 부여하고, 요청된 권한을 수락하여 PowerShell을 사용하여 구성을 진행할 수 있습니다.
-
-## 작업 3: 조직의 사용자 세그먼트 지정
+## 작업 2: 조직의 사용자 세그먼트 지정
 
 이 작업에서는 PowerShell을 사용하여 보안 및 규정 준수 모듈에 연결하고 **법무**팀 및 **마케팅**팀에 대한 조직 세그먼트를 만듭니다.
 
@@ -96,7 +60,7 @@ Azure AD 모듈을 성공적으로 설치하고, 필요한 권한을 부여하�
 
 보안 & 준수 PowerShell에 성공적으로 연결하고, 법무팀 및 마케팅팀에 대한 조직 세그먼트를 만들고, Get-OrganizationSegment cmdlet을 사용하여 세그먼트를 보았습니다.
 
-## 작업 4: 정보 장벽 정책 만들기
+## 작업 3: 정보 장벽 정책 만들기
 
 이 작업에서는 PowerShell을 사용하여 법무팀과 마케팅팀 간의 통신을 차단하는 정보 장벽 정책을 만듭니다.
 
@@ -126,7 +90,7 @@ Azure AD 모듈을 성공적으로 설치하고, 필요한 권한을 부여하�
 
 PowerShell을 사용하여 Legal-Marketing 및 Marketing-Legal 정보 장벽 정책을 성공적으로 만들고 Get-InformationBarrierPolicy cmdlet을 실행하여 해당 상태를 활성으로 확인했습니다.
 
-## 작업 5: 정보 장벽 정책 적용
+## 작업 4: 정보 장벽 정책 적용
 
 이 작업에서는 PowerShell을 사용하여 활성 정보 장벽 정책을 적용하고 해당 애플리케이션 상태를 확인합니다.
 
