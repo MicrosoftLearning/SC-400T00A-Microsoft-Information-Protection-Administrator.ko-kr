@@ -4,9 +4,9 @@ lab:
   module: Learning Objective - Implement and manage information protection
 ---
 
-# 세션 2 데모 5 - 민감도 레이블 만들기
+# 2부 데모 5 - 민감도 레이블 만들기
 
-Microsoft 365 Copilot를 도입하면서 Contoso Ltd.의 HR 부서는 자동으로 생성한 문서에서 중요한 직원 데이터를 보호할 방법에 대해 고민하고 있습니다. 이 부서에서는 데이터 보안을 보장하기 위해 Microsoft Purview에서 민감도 레이블을 적용하려 합니다. 이 레이블은 AI에서 만든 문서를 포함하여 중요한 HR 문서 전체를 암호화하고 액세스 제어를 적용하여 기밀 정보를 보호합니다.
+Microsoft 365 Copilot을 도입하면서 Contoso Ltd.의 HR 부서는 자동으로 생성한 문서에서 중요한 직원 데이터를 보호할 방법에 대해 고민하고 있습니다. 이 부서에서는 데이터 보안을 보장하기 위해 Microsoft Purview에서 민감도 레이블을 적용하려 합니다. 이 레이블은 AI에서 만든 문서를 포함하여 중요한 HR 문서 전체를 암호화하고 액세스 제어를 적용하여 기밀 정보를 보호합니다.
 
 ## 작업 1 - 민감도 레이블 만들기
 

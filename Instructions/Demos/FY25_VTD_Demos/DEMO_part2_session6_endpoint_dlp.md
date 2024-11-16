@@ -4,7 +4,7 @@ lab:
   module: Learning Objective - Create a DLP policy for generative AI sites
 ---
 
-# 세션 2 데모 6 - 생성형 AI 사이트에 대한 엔드포인트 DLP 정책 만들기
+# 2부 데모 6 - 생성형 AI 사이트에 대한 엔드포인트 DLP 정책 만들기
 
 Contoso Ltd.에서 생성형 AI 도구의 사용이 증가함에 따라 이 회사의 IT 팀에서는 직원이 AI 플랫폼을 통해 중요한 고객 및 직원 데이터를 실수로 공유할 위험이 있음을 확인했습니다. 이 위험을 완화하기 위해 Contoso IT 팀은 Microsoft Purview에서 엔드포인트 DLP를 구현하려 합니다. 이 DLP 정책을 통해 고객 세부 정보, 직원 레코드 또는 기타 기밀 데이터와 같은 중요한 정보가 생성형 AI 웹 사이트에 업로드되는 것을 방지하면서도 직원이 업무 시 AI 도구의 혜택을 누릴 수 있도록 합니다.
 
