@@ -13,7 +13,7 @@ Contoso가 더 많은 AI 기반 도구를 채택하는 과정에서는 중요한
 
 Contoso에는 이메일 또는 문서에서 직원 ID가 실수로 공유되는 사례가 있었습니다. 이러한 일이 발생하지 않도록 하기 위해 직원 ID가 노출되기 전에 감지하여 플래그를 지정할 수 있는 사용자 지정 중요한 정보 유형을 만들어 보겠습니다.
 
-1. Microsoft Purview 포털에 계속 Joni Sherman으로 로그인한 상태여야 합니다.
+1. Microsoft Purview 포털에 계속 Megan Bowen으로 로그인한 상태여야 합니다.
 
 1. Microsoft Purview 포털의 왼쪽 사이드바에서 **솔루션**을 선택한 다음 **Information Protection**을 선택합니다.
 
