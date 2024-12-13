@@ -183,7 +183,7 @@ Microsoft 365 환경 내의 GLBA 요구 사항에 특히 포커스를 맞춘 규
 
 1. **정책을 적용할 위치 선택** 페이지에서 다음을 선택합니다.
 
-   - Exchange 메일
+   - 전자 메일 교환
    - SharePoint 사이트
    - OneDrive 계정
    - Teams 채팅 및 채널 메시지
