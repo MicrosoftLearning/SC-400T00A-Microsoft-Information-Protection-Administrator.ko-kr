@@ -26,7 +26,7 @@ Contoso Ltd.에 최근 고용된 규정 준수 관리자인 사용자(Joni Sherm
 
 1. **SC-400-CL1\admin** 계정으로 클라이언트 1 VM(SC-400-CL1)에 로그인합니다. 암호는 랩 호스팅 공급자가 제공합니다.
 
-1. **Microsoft Edge**를 열고 Microsoft Purview 포털, `https://admin.microsoft.com`(으)로 이동한 다음 **MOD 관리자**, `admin@WWLxZZZZZZ.onmicrosoft.com`(으)로 로그인합니다(ZZZZZZ는 랩 호스팅 공급자가 제공한 고유 테넌트 ID임). 관리자의 암호는 랩 호스팅 공급자가 제공합니다.
+1. **Microsoft Edge**를 열고 Microsoft 365 관리 센터(`https://admin.microsoft.com`)로 이동한 후 **MOD 관리자**(`admin@WWLxZZZZZZ.onmicrosoft.com`)로 로그인합니다(여기서 ZZZZZZ는 랩 호스팅 공급자가 제공한 고유 테넌트 ID). 관리자의 암호는 랩 호스팅 공급자가 제공합니다.
 
 1. 왼쪽 사이드바에서 **사용자**를 확장한 다음 **활성 사용자**를 선택합니다.
 
