@@ -13,6 +13,24 @@ lab:
 
 환경에서 데모를 실행할 준비를 완료할 수 있도록 VTD 데모를 실행하기 48시간 전에 이 작업을 수행하세요.
 
+랩에 문제가 있는 경우 해결을 위해 제 연락처(richelle.swinton@microsoft.com)로 문의해 주세요.
+
+## Skillable 환경 액세스
+
+1. SC-400 랩 프로필에 액세스합니다([https://gtllabs.learnondemand.net/Lab/68392](https://gtllabs.learnondemand.net/Lab/68392)).
+
+1. 적절한 자격 증명으로 로그인합니다.
+
+1. **시작** 버튼을 선택하여 랩을 시작합니다.
+
+1. 랩 환경을 로드하기 위한 새 창이 열립니다. 랩 프로필이 로드되기를 기다립니다. 이 작업은 몇 분 정도 걸립니다.
+
+1. 데모 실행을 위해 이 랩을 쉽게 표시하려면 **리소스** 탭에서 자격 증명을 사용하고 Microsoft Edge의 시크릿 창에서 랩을 실행하는 방법이 가장 쉬울 수 있습니다.
+
+    ![새 Microsoft Purview 포털의 시작 화면을 보여주는 스크린샷.](/Instructions/Media/skillable-credentials.png)
+
+1. 디바이스를 온보딩하려면 Skillable 랩 VM에서 랩 설정을 실행해야 합니다.
+
 ## 작업 1 - 사용자 암호 설정 데모 연습
 
 이 작업에서는 랩에 필요한 사용자 계정의 암호를 설정합니다.

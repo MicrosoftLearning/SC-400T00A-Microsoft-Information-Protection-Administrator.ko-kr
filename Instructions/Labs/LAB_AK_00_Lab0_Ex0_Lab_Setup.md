@@ -29,7 +29,7 @@ lab:
 
 1. 클라이언트 1 VM(SC-400-CL1)에 **SC-400-CL1\admin** 계정으로 로그인합니다. 암호는 랩 호스팅 공급자가 제공합니다.
 
-1. **Microsoft Edge**를 열고 **`https://admin.microsoft.com`** 로 이동하여 Microsoft 365 관리 센터에 MOD 관리자(`admin@WWLxZZZZZZ.onmicrosoft.com`)로 로그인합니다(여기서 ZZZZZZ는 랩 호스팅 공급자가 제공한 고유 테넌트 ID).
+1. **Microsoft Edge**를 열고 **`https://admin.microsoft.com`** 로 이동하여 MOD 관리자 `admin@WWLxZZZZZZ.onmicrosoft.com`(여기서 ZZZZZZ는 랩 호스팅 제공업체에서 제공한 고유 테넌트 ID)로 Microsoft Purview 포털에 로그인합니다.
 
 1. 왼쪽 탐색 창에서 **사용자**를 확장한 다음 **활성 사용자**를 선택합니다.
 
@@ -74,19 +74,6 @@ lab:
     ![사용자 및 관리자 활동 기록 시작 단추를 보여 주는 스크린샷.](../Media/enable-audit-button.png)
 
 1. 이 옵션을 선택하면 이 페이지에서 파란색 표시줄이 사라집니다.
-
->[!경고] 이 연습에서 감사를 사용하도록 설정하는 동안 오류가 발생하는 경우 다음 단계를 해결 방법으로 사용합니다.
->1. 마우스 오른쪽 단추를 누르고 Windows 단추를 선택하여 권한이 있는 터미널 창을 열고, 터미널(관리자)을 선택합니다.
->1. 실행하여 ExchangeOnlineManagement 모듈 설치 `Install-Module -Name ExchangeOnlineManagement`
->1. 실행하여 ExchangeOnlineManagement에 연결 `Connect-ExchangeOnline`
->1. 메시지가 표시되면 랩 호스팅 공급자에서 관리자 사용자 이름 및 암호를 입력하여 로그인합니다.
->1. 감사를 사용할 수 있는지 확인하려면 다음을 실행합니다. `Get-AdminAuditLogConfig | FL UnifiedAuditLogIngestionEnabled` 
->1. false이면 감사 로그가 꺼집니다.
->1. 감사를 사용하도록 설정하려면 다음을 실행합니다.`Set-AdminAuditLogConfig -UnifiedAuditLogIngestionEnabled $true`
->   1. 조직에서 스크립트를 실행할 수 없다는 오류가 표시되면 다음을 실행합니다. `Enable-OrganizationCustomization` 
->   1. 다시 시도하여 다음을 실행합니다. `Set-AdminAuditLogConfig -UnifiedAuditLogIngestionEnabled $true` 
->1. 감사가 사용하도록 설정되어 있는지 확인하려면 다음을 실행합니다. `Get-AdminAuditLogConfig | FL UnifiedAuditLogIngestionEnabled` 
->1. 완료되면 세션을 종료하기 위해 다음을 실행합니다. `Disconnect-ExchangeOnline` 
 
 Microsoft 365에서 감사를 사용하도록 성공적으로 설정했습니다.
 
