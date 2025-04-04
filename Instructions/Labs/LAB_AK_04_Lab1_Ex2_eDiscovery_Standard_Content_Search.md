@@ -22,7 +22,7 @@ lab:
 
 이 작업에서는 Joni Sherman 계정에 필요한 eDiscovery 권한을 할당합니다. 이러한 권한을 사용하면 잘못된 종료 사례에 필요한 eDiscovery 데이터를 관리하고 내보낼 수 있습니다.
 
-1. 클라이언트 1 VM(LON-CL1)에 **lon-cl1\admin** 계정으로 로그인합니다.
+1. 클라이언트 1 VM(SC-400-CL1)에 **SC-400-CL1\admin** 계정으로 로그인합니다.
 
 1. **Microsoft Edge**에서 **`https://purview.microsoft.com`** 으로 이동한 다음, Microsoft Purview 포털에 **MOD 관리자** `admin@WWLxZZZZZZ.onmicrosoft.com`으로 로그인합니다(ZZZZZZ는 랩 호스팅 공급자가 제공한 고유 테넌트 ID임). 관리자의 암호는 랩 호스팅 공급자가 제공합니다.
 
@@ -54,7 +54,7 @@ Joni의 계정에 필요한 eDiscovery 권한을 성공적으로 할당했습니
 
 다음으로, 부당한 종료 소송에 대한 eDiscovery(표준) 사례를 만듭니다. 이 사건은 소송과 관련된 모든 활동 및 데이터에 대한 중앙 리포지토리 역할을 합니다.
 
-1. **lon-cl1\admin** 계정으로 클라이언트 1 VM(LON-CL1)에 로그인합니다.
+1. **SC-400-CL1\admin** 계정으로 클라이언트 1 VM(SC-400-CL1)에 로그인합니다.
 
 1. **Microsoft Edge**에서 **`https://purview.microsoft.com`** 으로 이동한 다음, Microsoft Purview 포털에 **Joni Sherman** `JoniS@WWLxZZZZZZ.onmicrosoft.com`으로 로그인합니다(ZZZZZZ는 랩 호스팅 공급자가 제공한 고유 테넌트 ID임).
 
