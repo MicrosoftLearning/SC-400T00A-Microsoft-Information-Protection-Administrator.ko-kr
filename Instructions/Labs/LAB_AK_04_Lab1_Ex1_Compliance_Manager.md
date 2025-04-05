@@ -31,7 +31,7 @@ Microsoft 365 환경 내의 GLBA 요구 사항에 특히 포커스를 맞춘 규
 
 이 작업에서는 준수 관리자를 사용하여 평가를 만드는 데 필요한 권한을 Joni에게 부여합니다. 또한 Megan에게 개선 작업이 할당된 경우 개선 작업을 수행하는 데 필요한 권한을 부여하게 됩니다.
 
-1. **lon-cl1\admin** 계정으로 클라이언트 1 VM(LON-CL1)에 로그인합니다. 암호는 랩 호스팅 공급자가 제공합니다.
+1. **SC-400-CL1\admin** 계정으로 클라이언트 1 VM(SC-400-CL1)에 로그인합니다. 암호는 랩 호스팅 공급자가 제공합니다.
 
 1. **Microsoft Edge**에서 주소 표시줄을 선택하고 **`https://purview.microsoft.com`** 로 이동한 후 Microsoft Purview 규정 준수 포털에 **MOD 관리자** `admin@WWLxZZZZZZ.onmicrosoft.com`으로 로그인합니다. 여기서 ZZZZZZ는 랩 호스팅 공급자가 제공한 고유 테넌트 ID입니다. 관리자의 암호는 랩 호스팅 공급자가 제공합니다.
 
@@ -151,7 +151,7 @@ Microsoft 365 환경 내의 GLBA 요구 사항에 특히 포커스를 맞춘 규
 
 이 작업에서는 준수 관리자에 할당된 개선 작업을 검토하고 그에 따라 조치를 취하게 됩니다.
 
-1. 클라이언트 1 VM(LON-CL1)에는 **lon-cl1\admin**으로 로그인되어 열린 상태여야 하고, Microsoft 365에는 Joni Sherman으로 로그인되어 있는 상태여야 합니다. 화면 오른쪽 상단에서 Joni Sherman의 이미지를 선택하고 **로그아웃**을 선택하여 계정에서 로그아웃합니다.
+1. **SC-400-CL1\admin**으로 열려 있는 클라이언트 1 VM(SC-400-CL1)에 로그인하고, Joni Sherman으로 Microsoft 365에 로그인해야 합니다. 화면 오른쪽 상단에서 Joni Sherman의 이미지를 선택하고 **로그아웃**을 선택하여 계정에서 로그아웃합니다.
 
 1. **Microsoft Edge**를 열고 **`https://outlook.office.com`** 으로 이동합니다.
 
@@ -214,7 +214,7 @@ Microsoft 365 환경 내의 GLBA 요구 사항에 특히 포커스를 맞춘 규
 
 ## 작업 6 - 개선 작업 수동 업데이트
 
-1. **lon-cl1\admin**로 열린 클라이언트 1 VM(LON-CL1)에 로그인되어 있는 상태여야 합니다.
+1. **SC-400-CL1\admin**으로 열려 있는 클라이언트 1 VM(SC-400-CL1)에 로그인해야 합니다.
 
 1. **Microsoft Edge**를 열고 **`https://purview.microsoft.com`** 으로 이동합니다.
 
