@@ -176,126 +176,128 @@ lab:
 
 PowerShell을 사용하여 보존 정책을 성공적으로 만들어 Microsoft Purview 포털을 통해 설정된 정책을 미러링하였습니다.
 
-## 작업 4 – 법률 및 소매 문서에 대한 적응형 보존 정책 만들기
+<!------ Commenting out until tenant bug issues are resolved
+## Task 4 – Create an adaptive retention policy for legal and retail documents
 
-이제 재무 및 법률 부서에 대한 적응형 보존 정책을 만들어 모든 법률 관련 문서가 5년 동안 보존되도록 합니다.
+Now, you'll create an adaptive retention policy for the finance and legal departments, ensuring that all legal-related documents are retained for five years.
 
-1. 여전히 클라이언트 1 VM(SC-400-CL1)에는 **SC-400-cl1\admin** 계정으로, Microsoft 365에는 **Joni Sherman**으로 로그인되어 있는 상태여야 합니다.
+1. You should still be logged into Client 1 VM (SC-400-CL1) as the **SC-400-cl1\admin** account, and you should be logged into Microsoft 365 as **Joni Sherman**.
 
-1. Microsoft Edge를 열고 **`https://purview.microsoft.com`** 으로 이동합니다. Joni의 계정으로 계속 로그인되어 있는지 확인한 다음 왼쪽 사이드바에서 **설정**을 선택합니다.
+1. Open Microsoft Edge and navigate to **`https://purview.microsoft.com`**. Verify you're still logged in with Joni's account, then select **Settings** from the left sidebar.
 
-1. **설정** 페이지의 왼쪽 사이드바에서 **역할 및 범위**를 확장한 다음 **적응형 범위**를 선택합니다.
+1. On the **Settings** page, expand **Roles and scopes** from the left sidebar, then select **Adaptive scopes**.
 
-1. **적응형 범위** 페이지에서 **+ 범위 만들기**를 선택합니다.
+1. On the **Adaptive scopes** page select **+ Create scope**.
 
-1. **적응형 정책 범위의 이름 지정** 페이지에 다음을 입력합니다.
+1. On the **Name your adaptive policy scope** page enter:
 
-    - **이름**: `Legal Documents Retention`
-    - **설명**: `Retention for legal related documents`
+    - **Name**: `Legal Documents Retention`
+    - **Description**: `Retention for legal related documents`
 
-1. **다음**을 선택합니다.
+1. Select **Next**.
 
-1. **관리 단위 할당** 페이지에서 **다음**을 선택합니다.
+1. On the **Assign admin unit** page select **Next**.
 
-1. **만들려는 범위 유형은 무엇인가요?** 페이지에서 **사용자**를 선택한 **다음**을 선택합니다.
+1. On the **What type of scope do you want to create?** page select **Users** then select **Next**.
 
-1. **사용자 정의 쿼리 만들기** 페이지의 **사용자 특성** 섹션에서 사용자 특성 구성에 대해 이러한 값이 선택되어 있는지 확인합니다.
+1. On the **Create the query to define users** page, in the **User attributes** section, ensure these values are selected for the user attribute configuration:
 
-   - **특성** 드롭다운을 선택한 다음 **부서**를 선택합니다.
-   - 기본값은 다음 필드의 값과 **동일하게** 둡니다.
-   - **값**을 `Legal`로 입력합니다.
+   - Select the **Attribute** dropdown then select **Department**
+   - Leave the default **is equal to** value in the next field
+   - Enter `Legal` as the **Value**
 
-1. **사용자 정의 쿼리 만들기** 페이지에서 **+ 특성 추가**를 선택하여 두 번째 특성을 추가합니다. 방금 구성한 필드 아래의 새 필드에서 다음 값을 구성합니다.
+1. Add a second attribute by selecting **+ Add attribute** on the **Create the query to define users** page. In the new field under the one we just configured, configure these values:
 
-   - 쿼리 연산자에 대한 드롭다운을 선택하고 And에서 **Or**로 업데이트합니다.
-   - **특성** 드롭다운을 선택한 다음 **부서**를 선택합니다.
-   - 기본값은 다음 필드의 값과 **동일하게** 둡니다.
-   - **값**을 `Retail`로 입력합니다.
+   - Select the dropdown for the query operator and update it from And to **Or**
+   - Select the **Attribute** dropdown then select **Department**
+   - Leave the default **is equal to** value in the next field
+   - Enter `Retail` as the **Value**
 
-1. **다음**을 선택합니다.
+1. Select **Next**.
 
-1. **검토 후 완료** 페이지에서 **제출**을 선택합니다.
+1. On the **Review and finish** page select **Submit**.
 
-1. 적응형 범위가 만들어지면 범위가 **범위가 만들어짐** 페이지에서 **완료**를 선택합니다.
+1. Once your adaptive scope is created select **Done** on the **Your scope was created** page.
 
-1. **적응형 범위** 페이지로 돌아가서 왼쪽 사이드바 아래쪽의 **솔루션**을 선택합니다.
+1. Back on the **Adaptive scopes** page, select **Solutions** from the bottom of the left sidebar.
 
-1. 위쪽 필터 버튼에서 **데이터 거버넌스** 탭을 선택합니다.
+1. Select the tab for **Data Governance** from the top filter buttons.
 
-1. **데이터 수명 주기 관리** 카드를 선택합니다.
+1. Select the **Data Lifecycle Management** card.
 
-1. **데이터 수명 주기 관리** 페이지에서 **정책**을 확장한 다음, **보존 정책**을 선택합니다.
+1. On the **Data Lifecycle Management** page, expand **Policies** then select **Retention policies**.
 
-1. **보존 정책** 페이지에서 **+ 새 보존 정책**을 선택합니다.
+1. On the **Retention policies** page, select **+ New retention policy**.
 
-1. **보존 정책 이름 지정** 페이지에서 다음을 입력합니다.
+1. On the **Name your retention policy** page enter:
 
-    - **이름**: `Legal Data Retention`
-    - **설명**: `Retention of all documents within the legal and retail departments.`
+    - **Name**: `Legal Data Retention`
+    - **Description**: `Retention of all documents within the legal and retail departments.`
 
-1. **다음**을 선택합니다.
+1. Select **Next**.
 
-1. **정책 범위** 페이지에서 **다음**을 선택합니다.
+1. On the **Policy Scope** page select **Next**.
 
-1. **만들 보존 정책 유형 선택** 페이지에서 **적응형**을 선택한 후 **다음**을 선택합니다.
+1. On the **Choose the type of retention policy to create** page select **Adaptive** then select **Next**.
 
-1. **적응형 정책 범위 및 위치 선택** 페이지에서 **+ 범위 추가**를 선택합니다.
+1. On the **Choose adaptive policy scopes and locations** page select **+ Add scopes**.
 
-1. **적응형 정책 범위 선택** 플라이아웃 패널에서 **법적 문서 보존** 체크박스를 선택한 다음, 패널 아래쪽의 **추가**를 선택합니다.
+1. On the **Choose adaptive policy scopes** flyout panel select the checkbox for **Legal Documents Retention** then select **Add** at the bottom of the panel.
 
-1. 다시 **정책을 적용할 위치 선택** 페이지에서 다음을 활성화합니다.
+1. Back on the **Choose locations to apply the policy** enable:
 
-    - Exchange 사서함
-    - OneDrive 계정
-    - 다른 모든 위치를 사용하지 않도록 설정합니다.
+    - Exchange mailboxes
+    - OneDrive accounts
+    - Leave all other locations disabled.
 
-1. **다음**을 선택합니다.
+1. Select **Next**.
 
-1. **콘텐츠를 보존할지, 삭제할지 또는 둘 다 수행할지 여부 결정** 페이지에서 보존 구성에 대해 이러한 값이 설정되었는지 확인합니다.
+1. On the **Decide if you want to retain content, delete it, or both** page, ensure these values are set for the retention configuration:
 
-   - **특정 기간 동안 항목 보존**을 선택합니다.
-   - **특정 기간 동안 항목 보존**의 드롭다운 목록에서 **5년**을 선택합니다.
-   - **보존 기간 시작 기준**: 마지막으로 항목을 수정한 시기
-   - **보존 기간 종료 시**: 아무 작업도 하지 않음
+   - Select **Retain items for a specific period**.
+   - Under **Retain items for a specific period**, select **5 years** from the dropdown list
+   - **Start the retention period based on**: When items were last modified
+   - **At the end of the retention period**: Do nothing
 
-1. **다음**을 선택합니다.
+1. Select **Next**.
 
-1. **검토 후 완료** 페이지에서 **제출**을 선택합니다.
+1. On the **Review and finish** page select **Submit**.
 
-1. 정책이 만들어지면 **완료** 단추를 선택합니다.
+1. Once your policy is created, select the **Done** button.
 
-1. 정책이 생성되면 **보존 정책을 성공적으로 만들었습니다** 페이지에서 **완료**를 선택합니다.
+1. Once your policy is created select **Done** on the **You successfully created a retention policy** page.
 
-5년 동안 법률 및 소매 부서 문서를 다루는 보존 정책에 적응형 범위를 적용했습니다.
+You have successfully applied an adaptive scope to a retention policy, covering legal and retail department documents for five years.
 
-## 작업 5 – 적응형 범위 정책 테스트
+## Task 5 – Test the adaptive scope policy
 
-이 마지막 작업에서는 적응형 범위의 영향을 받는 사용자를 확인하고 새 보존 정책을 테스트하여 예상대로 작동하는지 확인합니다.
+In this final task, you'll verify the users affected by the adaptive scope and test the new retention policy to ensure it is functioning as expected.
 
->**참고**: 보존 정책을 만들고 제출할 때 보존 정책을 적용하는 데 최대 7일이 걸릴 수 있습니다.
+>**Note**: When you create and submit a retention policy, it can take up to seven days for the retention policy to be applied.
 
-1. 작업 표시줄에서 Windows 단추를 마우스 오른쪽 단추로 클릭하여 관리자 권한 PowerShell 창을 연 다음 **터미널(관리자)** 을 선택합니다. **사용자 계정 컨트롤** 대화 상자가 나타나면 **예**를 선택합니다.
+1. Open an elevated PowerShell window by right clicking the Windows button in the task bar, then select **Terminal (Admin)**. Select **Yes** if the **User Account Control** dialogue pops up.
 
-1. 테넌트의 보안 및 준수 센터에 대해 **Connect-IPPSSession** cmdlet을 실행합니다.
+1. Run the **Connect-IPPSSession** cmdlet to the Security & Compliance Center in your tenant:
 
     ```powershell
     Connect-IPPSSession
     ```
 
-1. 로그인 대화 상자가 표시되면 Joni Sherman의 계정으로 로그인합니다. 로그인 ID로는 `JoniS@WWLxZZZZZZ.onmicrosoft.com`을(를) 사용합니다(여기서 ZZZZZZ는 랩 호스팅 공급자가 제공한 고유 테넌트 ID임). Joni의 계정은 이전 연습에서 설정되었습니다.
+1. When prompted with a sign in dialog box, sign in with Joni Sherman's account, `JoniS@WWLxZZZZZZ.onmicrosoft.com` (where ZZZZZZ is your unique tenant ID provided by your lab hosting provider). Joni's account was set in a previous exercise.
 
-1. **Get-RetentionCompliancePolicy** cmdlet을 실행하여 적응 범위 정책의 모든 세부 정보를 확인합니다.
+1. Run the **Get-RetentionCompliancePolicy** cmdlet to view all details of the adaptive scope policy:
 
     ```powershell
     Get-RetentionCompliancePolicy -Identity "Legal Data Retention" -DistributionDetail | Format-List
     ```
 
-1. 결과를 검토하고 다음 세부 정보를 검색합니다.
+1. Review the results and search for these details:
 
     - **Enabled**: True
-    - **Mode**: 적용
-    - **DistributionStatus**: 성공
+    - **Mode**: Enforce
+    - **DistributionStatus**: Success
 
-    ![Get-RetentionCompliancePolicy cmdlet의 결과 스크린샷](../Media/results-getretentioncompliancepolicy.png)
+    ![Screenshot of the results of the Get-RetentionCompliancePolicy cmdlet.](../Media/results-getretentioncompliancepolicy.png)
 
-적응형 범위 보존 정책의 성공적인 구현이 올바르게 적용되고 작동하는지 확인했습니다.
+You have verified the successful implementation of the adaptive scope retention policy, confirming that it is correctly applied and operational.
+--->
